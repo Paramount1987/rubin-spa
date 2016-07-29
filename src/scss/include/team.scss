@@ -95,12 +95,26 @@
   width: 1220px;
   height: 600px;
   padding: 18px;
+  overflow: auto;
   border-top:2px solid #fff;
   border-bottom: 2px solid #fff;
   background: rgba(0, 0, 0, 0.5);
 }
 
+.item-man-name{
+  margin-bottom: 30px;
+  font-family: 'pf_din_text_comp_proregular';
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #836565;
+  text-shadow: 0 2px 4px #000;
+}
+
 .item-man-text{
   color:#fff;
   font-size: 18px;
+  p{
+    margin: 2px 0;
+  }
 }

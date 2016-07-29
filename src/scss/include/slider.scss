@@ -239,3 +239,8 @@
     background-position: -78px -86px;
   }
 }
+//---------owl-carousel--single
+.owl-carousel--single .owl-controls .owl-next,
+.owl-carousel--single  .owl-controls .owl-prev{
+  top:300px;
+}
