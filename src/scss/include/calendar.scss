@@ -1,0 +1,106 @@
+.calendar-wrap{
+  margin: 70px 0 0 0;
+}
+
+.list-calendar{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li{
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: top;
+  }
+}
+.calendar-link{
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.calendar-date{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 65px;
+}
+
+.schedule-title{
+  margin: 0 0 25px 0;
+  font-weight: normal;
+  font-size: 55px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'pf_din_text_comp_proregular';
+}
+
+.item-club{
+  position: relative;
+  display: inline-block;
+  width: 540px;
+  padding: 3px 30px;
+  vertical-align: middle;
+  background: url('../img/images/table-bg.png');
+  font-family: 'pf_din_text_comp_proregular';
+  color: #fff;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: left;
+  letter-spacing: 2px;
+  box-shadow: 0px 2px 6px 1px rgba(0,0,0,.9);
+  &:before{
+    position: absolute;
+    content: '';
+    top:0;
+    left:0;
+    width: 100%;
+    height: 30px;
+    background: rgba(255,255,255,.1);
+  }
+  &.text-right{
+    text-align: right;
+  }
+}
+
+.schedule-point{
+  display: inline-block;
+  margin: 0 25px;
+  vertical-align: middle;
+  font-family: 'pf_din_text_comp_proregular';
+  font-size: 60px;
+  line-height: 65px;
+  color:#fff;
+}
+
+.game-wrap{
+  padding: 0 0 30px 0;
+}
+
+.game-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  li{
+    margin: 10px 0;
+  }
+}
+
+///------------------------------clubs
+.item-club .club-logo{
+  display: inline-block;
+  margin-right: 25px;
+}
+.text-right .club-logo{
+  margin-right: 0;
+  margin-left: 25px;
+}
+
+.item-club--rubin{
+  .club-logo{
+    width: 42px;
+    height: 52px;
+  }
+}
+

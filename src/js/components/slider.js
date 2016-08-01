@@ -17,6 +17,14 @@ var slider = {
          items: 1,
          dots: false,
          navText: []
+      });
+
+      $('.owl-carousel--calendar').owlCarousel({
+         loop:true,
+         nav:true,
+         items: 1,
+         dots: false,
+         navText: []
       })
    }
 }
