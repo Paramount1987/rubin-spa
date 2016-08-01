@@ -1,0 +1,25 @@
+.uppercase{
+  text-transform: uppercase;
+}
+
+.card{
+  display: inline-block;
+  vertical-align: top;
+  width: 7px;
+  height: 10px;
+}
+.card-yellow{
+  background: rgb(255,186,0);
+  background: -moz-linear-gradient(top,  rgba(255,186,0,1) 0%, rgba(255,234,0,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(255,186,0,1) 0%,rgba(255,234,0,1) 100%);
+  background: linear-gradient(to bottom,  rgba(255,186,0,1) 0%,rgba(255,234,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffba00', endColorstr='#ffea00',GradientType=0 );
+}
+.card-red{
+  background: rgb(204,4,79);
+  background: -moz-linear-gradient(top,  rgba(204,4,79,1) 0%, rgba(255,0,0,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(204,4,79,1) 0%,rgba(255,0,0,1) 100%);
+  background: linear-gradient(to bottom,  rgba(204,4,79,1) 0%,rgba(255,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc044f', endColorstr='#ff0000',GradientType=0 );
+
+}
