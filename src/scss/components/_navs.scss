@@ -86,12 +86,26 @@
 // Tabbable tabs 6d6782
 // -------------------------
 .tab-content {
-  padding: 10px;
+   padding: 10px;
+   > .tab-pane {
+     display: none;
+   }
+   > .active {
+     display: block;
+   }
+ }
+
+.tab-content--opacity {
   > .tab-pane {
-    display: none;
+    display: block;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
   }
   > .active {
-    display: block;
+    opacity:1;
+    height: auto;
+    overflow: visible;
   }
 }
 
@@ -109,4 +123,7 @@
 
 .tab-pane__slider--m{
   padding: 0 70px 0 80px;
+}
+.tab-pane__slider--h{
+  padding: 0;
 }

@@ -1,0 +1,51 @@
+.owl-carousel--cups{
+  margin-top: 70px;
+}
+
+.item-cup{
+  text-align: center;
+}
+
+.item-cup__photo{
+  margin-bottom: 70px;
+  overflow: hidden;
+  height: 500px;
+  img{
+    max-width: 100%;
+  }
+}
+
+.item-cup-title{
+  font-family: 'pf_din_text_comp_proregular';
+  font-size: 30px;
+  color:#fff;
+  text-transform: uppercase;
+}
+
+//---------------------------------cups-dot
+.cups-dot{
+  margin-top: 30px;
+  text-align: center;
+}
+.cup-dot{
+  display: inline-block;
+  height: 80px;
+  margin: 0 15px;
+  vertical-align: top;
+}
+.cup-dot--1{
+  width:50px;
+  background: url('../img/images/cup1.png') no-repeat center;
+}
+.cup-dot--2{
+  width:37px;
+  background: url('../img/images/cup2.png') no-repeat center;
+}
+.cup-dot--3{
+  width:33px;
+  background: url('../img/images/cup3.png') no-repeat center;
+}
+.cup-dot--4{
+  width:82px;
+  background: url('../img/images/cup4.png') no-repeat center;
+}

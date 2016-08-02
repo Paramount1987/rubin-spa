@@ -106,6 +106,7 @@
   min-height: 1px;
   float: left;
   -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -244,4 +245,15 @@
 
 .owl-carousel--calendar{
   margin-top: 50px;
+}
+
+//-------------------------owl-carousel--directors
+.owl-carousel--directors{
+  text-align: center;
+}
+.owl-carousel--directors .item-team{
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  margin: 0 12px;
 }

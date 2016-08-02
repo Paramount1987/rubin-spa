@@ -11,7 +11,7 @@ var sass = require('gulp-sass'),
     browserify = require('gulp-browserify'),
     imagemin = require('gulp-imagemin'),
     autoprefixer = require('gulp-autoprefixer'),
-   svgSprite = require('gulp-svg-sprite');
+    svgSprite = require('gulp-svg-sprite');
 
 
 //svg sprite
