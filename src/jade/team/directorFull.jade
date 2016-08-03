@@ -1,0 +1,9 @@
+.item-man
+    .item-man__photo
+        span.item-man__photo-inner
+            img(src='#{director.photo}', alt='')
+    .item-man__body
+        .item-man-name #{director.name}
+        .item-man-text
+            each text in director.data
+               p #{text}

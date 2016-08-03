@@ -1,0 +1,9 @@
+.item-man
+   .item-man__photo
+      span.item-man__photo-inner
+         img(src='#{coach.photo}', alt='')
+   .item-man__body
+      .item-man-name #{coach.name}
+      .item-man-text
+         each text in coach.data
+            p #{text}

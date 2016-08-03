@@ -1,0 +1,10 @@
+if calendar.games
+    .item-schedule
+        h3.schedule-title #{calendar.month} 2016
+        .game-wrap
+            ul.game-list
+                each game in calendar.games
+                    li
+                        .item-club.text-right #{game[0]}
+                        .schedule-point #{game[1]}
+                        .item-club.item-club--rubin #{game[2]}

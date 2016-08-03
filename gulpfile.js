@@ -2,6 +2,8 @@
 var gulp = require('gulp');
 
 // Include Our Plugins
+const babel = require('gulp-babel');
+
 var browserSync = require('browser-sync').create();
 var sass = require('gulp-sass'),
     concat = require('gulp-concat'),
@@ -57,6 +59,9 @@ gulp.task('scripts', function() {
       transform: ['jadeify'],
       extensions: ['.jade']
     }))
+     .pipe(babel({
+       presets: ['es2015']
+     }))
     .pipe(uglify())
     .pipe(gulp.dest('./build/js'))
     .pipe(browserSync.reload({stream: true}))

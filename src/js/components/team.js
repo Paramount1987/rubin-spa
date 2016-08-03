@@ -8,7 +8,7 @@ function playersInit(){
 
    //----------------------------------------------add players
    for(var i = 0; i < team.players.length; i++){
-      $players.append( playerTemplate( {'player': team.players[i], 'index': i }  ));
+      $players.append( playerTemplate( {'player': team.players[i], 'index': i, 'type':'player' }  ));
    }
 
       $players.owlCarousel({
@@ -25,10 +25,9 @@ function directorsInit(){
    var $directors = $('.owl-carousel--directors');
 
    for(var i = 0; i < team.directors.length; i++){
-      $directors.append( playerTemplate( {'player': team.directors[i], 'index': i }  ));
+      $directors.append( playerTemplate( {'player': team.directors[i], 'index': i, 'type': 'director' }  ));
    }
 };
-
 
 //------------------------------coach
 function coachInit(){
@@ -36,7 +35,7 @@ function coachInit(){
 
    //----------------------------------------------add players
    for(var i = 0; i < team.coach.length; i++){
-      $coach.append( playerTemplate( {'player': team.coach[i], 'index': i }  ));
+      $coach.append( playerTemplate( {'player': team.coach[i], 'index': i, 'type':'coach' }  ));
    }
 
    $coach.owlCarousel({

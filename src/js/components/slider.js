@@ -19,15 +19,7 @@ var slider = {
          dots: false,
          navText: []
       });
-//---------------------------------------------------------------
-      $('.owl-carousel--calendar').owlCarousel({
-         loop:true,
-         nav:true,
-         items: 1,
-         dots: false,
-         navText: [],
-         smartSpeed: 700
-      });
+
 //---------------------------------------------------------------
       var historySlider = $('.owl-carousel--history').owlCarousel({
          center: true,
