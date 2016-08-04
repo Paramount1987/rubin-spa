@@ -6,6 +6,7 @@ var calendar = require('../components/calendar');
 var directors = require('../components/directors');
 var coaches = require('../components/coaches');
 var players = require('../components/players');
+var cups = require('../components/cups');
 
 
 var init = function(){
@@ -33,6 +34,9 @@ var init = function(){
             break;
          case 'player':
             contentChange.contentLoad(content.data[contentHtml], players.init, index);
+            break;
+         case 'cups':
+            contentChange.contentLoad(content.data[contentHtml], cups.init);
             break;
       }
 

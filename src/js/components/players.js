@@ -20,4 +20,5 @@ var playersInit = function(curSlide){
    });
 }
 
+
 module.exports.init = playersInit;

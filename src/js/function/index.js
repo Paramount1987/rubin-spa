@@ -14,7 +14,6 @@ var contentChange  = function(newContent, callback, curSlide){
       if(callback)  callback(curSlide);
 
       $wrapper.animate({opacity: 1},500);
-
    });
 
 }

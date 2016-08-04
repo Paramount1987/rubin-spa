@@ -3,7 +3,12 @@
 }
 
 .item-cup{
+  display: block;
   text-align: center;
+  text-decoration:  none;
+  &:hover{
+    text-decoration: none;
+  }
 }
 
 .item-cup__photo{
@@ -18,8 +23,9 @@
 .item-cup-title{
   font-family: 'pf_din_text_comp_proregular';
   font-size: 30px;
-  color:#fff;
   text-transform: uppercase;
+  color: #d8bcbc;
+  text-shadow: 0 2px 4px #000;
 }
 
 //---------------------------------cups-dot

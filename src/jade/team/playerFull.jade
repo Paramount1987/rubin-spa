@@ -1,20 +1,20 @@
 .item-man
     .item-team.item-team--player
-        a.item-team__photo(href='#')
+        .item-team__photo
             span.item-team__photo-inner
-                img(src='img/images/sergeyR.jpg', alt='')
+                img(src='#{player.photo}', alt='')
     .item-man__body
-        .item-man-name.item-man-name--margin Сергей Рыжиков
-        .item-man-position.uppercase вратарь
+        .item-man-name.item-man-name--margin #{player.name}
+        .item-man-position.uppercase #{player.position}
         .item-man-text
             .item-man-text__left
                 .item-man__info
-                    .item-man-birthday.uppercase дата рождения: 19 сентября 1980
-                    .item-man-nation.uppercase гражданство: Россия
-                    .item-man-data.uppercase данные: рост 192 см, вес 92 кг.
-                    .item-man-pos.uppercase позиция: вратарь
-                p
-                    | В бытность игроком выступал за
+                    .item-man-birthday.uppercase #{player.data[0].data[0]}
+                    .item-man-nation.uppercase #{player.data[0].data[1]}
+                    .item-man-data.uppercase #{player.data[0].data[2]}
+                    .item-man-pos.uppercase #{player.data[0].data[3]}
+                each text in player.data[0].biography
+                    p #{text}
             .item-man-text__right
                 .item-man-text--title.uppercase статистика игрока
                 .table-wrap
@@ -28,21 +28,10 @@
                                     .card.card-yellow
                                     .card.card-red
                         tbody
-                            tr
-                                td Лига Чемпионов 2010/11
-                                td 6
-                                td 0
-                                td 1/0
-                            tr
-                                td СОГАЗ-Чемпионат России 2011/12
-                                td 41
-                                td 0
-                                td 2/1
-                            tr
-                                td СОГАЗ-Чемпионат России 2012/13
-                                td 0
-                                td 0
-                                td 2/2
+                            each item in player.data[0].statistics
+                                tr
+                                    each td in item
+                                        td #{td}
                 .item-man-text--title.uppercase другие сезоны
                 .table-wrap
                     table.table-team
@@ -56,27 +45,7 @@
                                 th Дубль
                                 th Еврокубки
                         tbody
-                            tr
-                                td 1999
-                                td Салют-Юкос Белгород
-                                td 0
-                                td 1/0
-                                td В
-                                td -
-                                td -
-                            tr
-                                td 2000
-                                td Салют-Юкос Белгород
-                                td 0
-                                td 1/0
-                                td В
-                                td -
-                                td -
-                            tr
-                                td 2001
-                                td Салют-Юкос Белгород
-                                td 0
-                                td 1/0
-                                td В
-                                td -
-                                td -
+                            each item in player.data[0].otherSeason
+                                tr
+                                    each td in item
+                                        td #{td}

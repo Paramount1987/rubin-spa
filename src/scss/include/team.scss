@@ -57,7 +57,7 @@
   font-size: 30px;
   line-height: 35px;
   text-transform: uppercase;
-  color: #836565;
+  color: #d8bcbc;
   text-shadow: 0 2px 4px #000;
   text-align: center;
 }
@@ -117,7 +117,7 @@
   font-size: 50px;
   line-height: 50px;
   text-transform: uppercase;
-  color: #836565;
+  color: #d8bcbc;
   text-shadow: 0 2px 4px #000;
 }
 
@@ -180,6 +180,9 @@
   .card{
     position: relative;
     top:4px;
+  }
+  .card-red{
+    margin-left: 5px;
   }
 }
 .table-team{
