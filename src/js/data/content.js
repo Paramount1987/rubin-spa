@@ -404,6 +404,42 @@ var content = {
                                         <div class="cup-dot cup-dot--4"></div>
                                     </div>
                                 </div>
+                    </div>`,
+   "cup": `                    <div class="content-top">
+                        <div class="content-title">
+                            <img src="img/images/logo-sm.png" class="logo-sm"  alt=""/>
+                            <h1>
+                                <svg height="105" width="420">
+                                    <defs>
+                                        <linearGradient id="gradCups" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+                                            <stop offset="45%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+                                            <stop offset="46%" style="stop-color:rgb(201,156,162);stop-opacity:1" />
+                                            <stop offset="70%" style="stop-color:rgb(136,75,84);stop-opacity:1" />
+                                            <stop offset="100%" style="stop-color:rgb(136,75,84);stop-opacity:1" />
+                                        </linearGradient>
+                                    </defs>
+                                    <text fill="url(#gradCups)" font-family="pf_din_text_comp_proregular" x="2" y="80">
+                                        Достижения</text>
+                                </svg>
+                            </h1>
+                        </div>
+                        <div class="content-nav">
+                            <a href="#" class="link-main" data-link="main"></a>
+                            <a href="#" class="link-back" data-link="cups"></a>
+                        </div>
+                    </div>
+                    <div class="content-body">
+                        <div class="tab-pane__slider tab-pane__slider--m">
+                                    <div class="owl-carousel owl-carousel--cupSingle">
+                                    </div>
+                                    <div class="cups-dot">
+                                        <div class="cup-dot cup-dot--1"></div>
+                                        <div class="cup-dot cup-dot--2"></div>
+                                        <div class="cup-dot cup-dot--3"></div>
+                                        <div class="cup-dot cup-dot--4"></div>
+                                    </div>
+                                </div>
                     </div>`
 }
 

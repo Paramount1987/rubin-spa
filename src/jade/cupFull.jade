@@ -1,0 +1,16 @@
+.item-cup.item-cup--single
+    .item-cup__photo--single
+        img(src='#{cup.photo}', alt='')
+    .item-cup-body
+        .item-cup-name #{cup.name}
+        .item-cup-text
+            each text in cup.content
+                p #{text}
+        ul.cup-list__photos
+            each photo in cup.album
+                li
+                    .item-cup__photo-wrap
+                        a.item-cup__photo--album.fancybox(href='#{photo.photo}' rel='#{group}')
+                            span.item-cup__photo-inner
+                                 img(src='#{photo.previewPhoto}', alt='')
+                        .item-cup__photo-caption #{photo.caption}

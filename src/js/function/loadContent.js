@@ -7,11 +7,12 @@ var directors = require('../components/directors');
 var coaches = require('../components/coaches');
 var players = require('../components/players');
 var cups = require('../components/cups');
+var cupSingle = require('../components/cupSingle');
 
 
 var init = function(){
 
-   $('body').on('click', '.nav-link, .link-main, .link-back, .item-team__photo', function(e){
+   $('body').on('click', '.nav-link, .link-main, .link-back, .item-team__photo, .item-cup', function(e){
       e.preventDefault();
       var contentHtml = $(this).data('link');
       var index = $(this).data('item') || 0;
@@ -37,6 +38,9 @@ var init = function(){
             break;
          case 'cups':
             contentChange.contentLoad(content.data[contentHtml], cups.init);
+            break;
+         case 'cup':
+            contentChange.contentLoad(content.data[contentHtml], cupSingle.init, index);
             break;
       }
 
