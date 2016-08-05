@@ -94,7 +94,11 @@
 
 ///------------------------------clubs
 .item-club .club-logo{
+  position: relative;
+  top:-2px;
   display: inline-block;
+  width: 47px;
+  height: 55px;
   margin-right: 25px;
 }
 .text-right .club-logo{

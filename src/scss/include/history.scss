@@ -42,3 +42,14 @@
   transition: all ease-out .5s;
   transform: translate(0,0);
 }
+
+//----------------------gallery link
+.gallery-link{
+  position: absolute;
+  z-index: 1;
+  top:5px;
+  left:0;
+  display: block;
+  font-size: 45px;
+  text-transform: uppercase;
+}

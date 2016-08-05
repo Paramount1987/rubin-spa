@@ -26,5 +26,4 @@ function init(){
    calendarInit();
 }
 
-
 module.exports.init = init;

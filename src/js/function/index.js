@@ -1,5 +1,3 @@
-//var team = require('./components/team');
-
 
 var contentChange  = function(newContent, callback, curSlide){
 
@@ -8,12 +6,12 @@ var contentChange  = function(newContent, callback, curSlide){
 
    $wrapper.animate({
       opacity: 0
-   },500, function(){
+   },300, function(){
 
       $content.html( newContent );
       if(callback)  callback(curSlide);
 
-      $wrapper.animate({opacity: 1},500);
+      setTimeout(function(){$wrapper.animate({opacity: 1},500)},250);
    });
 
 }

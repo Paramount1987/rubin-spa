@@ -8,11 +8,13 @@ var coaches = require('../components/coaches');
 var players = require('../components/players');
 var cups = require('../components/cups');
 var cupSingle = require('../components/cupSingle');
-
+var history = require('../components/history');
+var glory = require('../components/glory');
+var gloryItem = require('../components/gloryItem');
 
 var init = function(){
 
-   $('body').on('click', '.nav-link, .link-main, .link-back, .item-team__photo, .item-cup', function(e){
+   $('body').on('click', '.nav-link, .link-main, .link-back, .item-team__photo, .item-cup, .gallery-link', function(e){
       e.preventDefault();
       var contentHtml = $(this).data('link');
       var index = $(this).data('item') || 0;
@@ -41,6 +43,15 @@ var init = function(){
             break;
          case 'cup':
             contentChange.contentLoad(content.data[contentHtml], cupSingle.init, index);
+            break;
+         case 'history':
+            contentChange.contentLoad(content.data[contentHtml], history.init);
+            break;
+         case 'glory':
+            contentChange.contentLoad(content.data[contentHtml], glory.init);
+            break;
+         case 'gloryItem':
+            contentChange.contentLoad(content.data[contentHtml], gloryItem.init, index);
             break;
       }
 

@@ -5,6 +5,10 @@ if calendar.games
             ul.game-list
                 each game in calendar.games
                     li
-                        .item-club.text-right #{game[0]}
-                        .schedule-point #{game[1]}
-                        .item-club.item-club--rubin #{game[2]}
+                        .item-club.text-right
+                            | #{game[0]}
+                            img.club-logo(src='#{game[1]}', alt='')
+                        .schedule-point #{game[2]}
+                        .item-club
+                            img.club-logo(src='#{game[3]}', alt='')
+                            | #{game[4]}
