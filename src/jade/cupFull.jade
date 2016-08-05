@@ -1,7 +1,7 @@
 .item-cup.item-cup--single
     .item-cup__photo--single
         img(src='#{cup.photo}', alt='')
-    .item-cup-body
+    .item-cup-body.scroll-pane
         .item-cup-name #{cup.name}
         .item-cup-text
             each text in cup.content
