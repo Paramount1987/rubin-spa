@@ -14,7 +14,7 @@
 
 .jspPane
 {
-  padding: 18px 20px 18px 18px !important;
+  padding: 18px 0 18px 18px !important;
   position: absolute;
 }
 
@@ -57,13 +57,18 @@
 
 .jspDrag
 {
-  background: #d8bcbc;
   position: relative;
   top: 0;
-  left: -6px;
+  left: -5px;
   width: 12px;
   cursor: pointer;
   border-radius: 8px;
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 45%, rgba(201,156,162,1) 46%, rgba(136,75,84,1) 70%, rgba(136,75,84,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 45%,rgba(201,156,162,1) 46%,rgba(136,75,84,1) 70%,rgba(136,75,84,1) 100%);
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 45%,rgba(201,156,162,1) 46%,rgba(136,75,84,1) 70%,rgba(136,75,84,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#884b54',GradientType=0 );
+
 }
 
 .jspHorizontalBar .jspTrack,
@@ -121,4 +126,13 @@
 
 .jspScrollable:focus {
   outline: 0;
+}
+.scroll-pane .item-man-text,
+.scroll-pane .item-cup-text{
+  padding-right: 18px;
+}
+
+.jspScrollable .item-man-text,
+.jspScrollable .item-cup-text{
+  padding-right: 30px;
 }
