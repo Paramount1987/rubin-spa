@@ -5,7 +5,7 @@ var playerTemplate = require('../../jade/team/player');
 //------------------------------players
 function playersInit(){
    var $players = $('.owl-carousel--players');
-
+   $('.wrapper').removeClass('wrapper--history');
    //----------------------------------------------add players
    for(var i = 0; i < team.players.length; i++){
       $players.append( playerTemplate( {'player': team.players[i], 'index': i, 'type':'player' }  ));

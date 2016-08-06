@@ -4,6 +4,7 @@ var Cups = require('../data/cups');
 var cupsInit = function(curSlide){
 
    var $cups = $('.owl-carousel--cupSingle');
+   $('.wrapper').removeClass('wrapper--history');
    //----------------------------------------------add cups
    for(var i = 0; i < Cups.cups.length; i++){
       $cups.append( cupTemplate( {'cup': Cups.cups[i], 'group': i } ));

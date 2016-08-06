@@ -5,6 +5,7 @@ var calendarTemplate = require('../../jade/calendar');
 //------------------------------calendar
 function calendarInit(){
    var $calendar = $('.owl-carousel--calendar');
+   $('.wrapper').removeClass('wrapper--history');
    //----------------------------------------------add games
    for(var i = 0; i < calendar.games.length; i++){
       $calendar.append( calendarTemplate( {'calendar': calendar.games[i] }  ));

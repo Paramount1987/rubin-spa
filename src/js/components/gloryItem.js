@@ -4,6 +4,7 @@ var dataGlory = require('../data/glory');
 var gloryInit = function(curSlide){
 
    var $glory = $('.owl-carousel--glorySingle');
+   $('.wrapper').removeClass('wrapper--history');
    //----------------------------------------------add players
    for(var i = 0; i < dataGlory.glory.length; i++){
       $glory.append( gloryTemplate( {'glory': dataGlory.glory[i] }  ));

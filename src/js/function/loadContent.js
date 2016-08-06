@@ -1,6 +1,7 @@
 var content = require('../data/content');
 var contentChange = require('./index');
 
+var main = require('../components/main');
 var team = require('../components/team');
 var calendar = require('../components/calendar');
 var directors = require('../components/directors');
@@ -21,7 +22,7 @@ var init = function(){
 
       switch (contentHtml) {
          case 'main':
-            contentChange.contentLoad(content.data[contentHtml]);
+            contentChange.contentLoad(content.data[contentHtml], main.init);
             break;
          case 'team':
             contentChange.contentLoad(content.data[contentHtml], team.players);

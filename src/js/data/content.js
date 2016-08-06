@@ -475,18 +475,7 @@ var content = {
                     </div>
                     <div class="content-body">
                         <div class="tab-pane__slider tab-pane__slider--h">
-                              <div class="owl-carousel owl-carousel--history">
-                                  <div class="item-history">1</div>
-                                  <div class="item-history">2</div>
-                                  <div class="item-history">3</div>
-                                  <div class="item-history">4</div>
-                                  <div class="item-history">5</div>
-                                  <div class="item-history">6</div>
-                                  <div class="item-history">7</div>
-                                  <div class="item-history">8</div>
-                                  <div class="item-history">9</div>
-                                  <div class="item-history">10</div>
-                              </div>
+                              <div class="owl-carousel owl-carousel--history"></div>
                             <div class="history-dots">
                                 <div class="history-dots-pos"></div>
                                 <div class="history-dot">

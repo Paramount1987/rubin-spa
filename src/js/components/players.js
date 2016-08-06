@@ -4,6 +4,7 @@ var team = require('../data/team');
 var playersInit = function(curSlide){
 
    var $player = $('.owl-carousel--playerSingle');
+   $('.wrapper').removeClass('wrapper--history');
    //----------------------------------------------add players
    for(var i = 0; i < team.players.length; i++){
       $player.append( playerTemplate( {'player': team.players[i] }  ));

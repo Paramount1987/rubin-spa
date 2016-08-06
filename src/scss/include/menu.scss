@@ -58,27 +58,30 @@ nav{
 //------------------ball
 .ball-lg{
   display: block;
-  width: 503px;
-  height: 545px;
-  background: url('../img/images/ball-lg.png') center;
+  width: 505px;
+  height: 505px;
+  background-image: url('../img/images/ball-sprite-lg.png');
   background-repeat: no-repeat;
+  background-position: -10px -10px;
 }
 
 //------------------cup
 .cup-lg{
   display: block;
-  width: 545px;
-  height: 545px;
+  width: 505px;
+  height: 505px;
   background: url('../img/images/cup-lg.png') center;
   background-repeat: no-repeat;
+  background-size:cover;
 }
 //------------------logo
 .logo-lg{
   display: block;
   width: 428px;
-  height: 545px;
+  height: 505px;
   background: url('../img/images/logo-lg.png') center;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 //--------------------------nav-backdrop
 .nav-backdrop{
@@ -111,4 +114,32 @@ nav{
   z-index: 11;
   top:55px;
   right:35px;
+}
+
+//--------------------animate ball sprite
+@keyframes ballRotate{
+  0%{
+    background-position: -10px -10px;
+  }
+  15%{
+    background-position: -10px -535px;
+  }
+  30{
+    background-position: -10px -1060px;
+  }
+  45%{
+    background-position: -10px -1585px;
+  }
+  60%{
+    background-position: -10px -2110px;
+  }
+  75%{
+    background-position: -10px -2635px;
+  }
+  90%{
+    background-position: -10px -3160px;
+  }
+  100%{
+    background-position: -10px -3160px;
+  }
 }

@@ -4,6 +4,7 @@ var Cups = require('../data/cups');
 var cupsInit = function(){
 
    var $cups = $('.owl-carousel--cups');
+   $('.wrapper').removeClass('wrapper--history');
    //----------------------------------------------add cups
    for(var i = 0; i < Cups.cups.length; i++){
       $cups.append( cupsTemplate( {'cup': Cups.cups[i], 'index': i, 'type': 'cup' }  ));

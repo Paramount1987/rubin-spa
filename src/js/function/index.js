@@ -11,7 +11,7 @@ var contentChange  = function(newContent, callback, curSlide){
       $content.html( newContent );
       if(callback)  callback(curSlide);
 
-      setTimeout(function(){$wrapper.animate({opacity: 1},500)},250);
+      setTimeout(function(){$wrapper.animate({opacity: 1},500)},300);
 
       //------------------------scrollpane
          $('.scroll-pane').jScrollPane();

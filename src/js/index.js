@@ -7,7 +7,7 @@
    //--------------------------------------------
       linkContentInit.init();//change dom content
 
-   //-------------------------------scroll pane
+   //-------------------------------
       $('document').ready(function(){
          $('#rubin-preloader').fadeOut();//-----------preloader
       });

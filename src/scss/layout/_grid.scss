@@ -1,19 +1,28 @@
 .wrapper{
-  min-height: 950px;
+  min-height: 975px;
   height: 100%;
   min-width: 1730px;
-  background: url('../img/images/rubin-bg.jpg') no-repeat center;
-  background-size: cover;
 }
 
 .wrapper--dr{
-  background: url('../img/images/rubin-bg-dark.jpg') no-repeat center;
+  .table-rb{
+    background: url('../img/images/rubin-bg-dark.jpg') no-repeat center;
+    background-size: cover;
+  }
+}
+
+.table-rb{
+  background: url('../img/images/rubin-bg.jpg') no-repeat center;
   background-size: cover;
 }
 //------------------------------------content
 .content{
   width: 1710px;
   margin:0 auto;
+}
+.wrapper--history .content{
+  width:100%;
+  min-width: 1820px;
 }
 
 .content-title{
@@ -32,6 +41,10 @@
 }
 .content-top{
   position: relative;
+}
+.wrapper--history .content-top{
+  width:1710px;
+  margin: 0 auto;
 }
 
 .content-nav{
@@ -77,5 +90,18 @@
 .table-cell-rb{
   display: table-cell;
   vertical-align: middle;
+}
+
+.wrapper--history{
+  .table-rb{
+  display: block;
+  height:auto;
+  padding:40px 0;
+}
+
+.table-cell-rb{
+  display: block;
+  height:auto;
+}
 }
 //--////
