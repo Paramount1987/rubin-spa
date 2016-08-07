@@ -541,6 +541,103 @@ var content = {
                             </div>
                         </div>
                     </div>`,
+    historyItem: `<div class="content-top">
+                        <div class="content-title">
+                            <img src="img/images/logo-sm.png" class="logo-sm"  alt=""/>
+                            <h1>
+                                <svg height="105" width="350">
+                                    <defs>
+                                        <linearGradient id="gradC" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+                                            <stop offset="45%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+                                            <stop offset="46%" style="stop-color:rgb(201,156,162);stop-opacity:1" />
+                                            <stop offset="70%" style="stop-color:rgb(136,75,84);stop-opacity:1" />
+                                            <stop offset="100%" style="stop-color:rgb(136,75,84);stop-opacity:1" />
+                                        </linearGradient>
+                                    </defs>
+                                    <text fill="url(#gradC)" class="period-date" font-family="pf_din_text_comp_proregular" x="2" y="80">1972-1977</text>
+                                </svg>
+                            </h1>
+                        </div>
+                        <div class="content-nav">
+                            <a href="#" class="link-main" data-link="main"></a>
+                            <a href="#" class="link-back" data-link="history"></a>
+                        </div>
+                    </div>
+                    <div class="content-body">
+                        <div class="tab-pane__slider tab-pane__slider--h">
+                              <div class="owl-carousel owl-carousel--historyItem"></div>
+                            <div class="history-dots">
+                                <div class="history-dots-pos"></div>
+                                <div class="history-dot">
+                                    <svg height="40" width="110">
+                                        <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
+                                            1936-1957</text>
+                                    </svg>
+                                </div>
+                                <div class="history-dot">
+                                    <svg height="40" width="110">
+                                        <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
+                                            1958-1965</text>
+                                    </svg>
+                                </div>
+                                <div class="history-dot">
+                                    <svg height="40" width="110">
+                                        <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
+                                            1966-1971</text>
+                                    </svg>
+                                </div>
+                                <div class="history-dot">
+                                    <svg height="40" width="110">
+                                        <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
+                                            1972-1977</text>
+                                    </svg>
+                                </div>
+                                <div class="history-dot">
+                                    <svg height="40" width="110">
+                                        <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
+                                            1978-1991</text>
+                                    </svg>
+                                </div>
+                                <div class="history-dot">
+                                    <svg height="40" width="110">
+                                        <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
+                                            1992-1995</text>
+                                    </svg>
+                                </div>
+                                <div class="history-dot">
+                                    <svg height="40" width="110">
+                                        <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
+                                            1996-2002</text>
+                                    </svg>
+                                </div>
+                                <div class="history-dot">
+                                    <svg height="40" width="110">
+                                        <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
+                                            2003-2005</text>
+                                    </svg>
+                                </div>
+                                <div class="history-dot">
+                                    <svg height="40" width="110">
+                                        <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
+                                            2006-2009</text>
+                                    </svg>
+                                </div>
+                                <div class="history-dot">
+                                    <svg height="40" width="110">
+                                        <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
+                                            2010-2012</text>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="video-modal">
+                            <video id="videoClip"  controls>
+                              <source src="" type="video/mp4" id="video-src">
+                                    Your browser does not support the video tag.
+                            </video>
+                        </div> 
+                    </div>`,
    glory: `                    <div class="content-top">
                         <div class="content-title">
                             <img src="img/images/logo-sm.png" class="logo-sm"  alt=""/>

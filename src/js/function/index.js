@@ -13,8 +13,9 @@ var contentChange  = function(newContent, callback, curSlide){
 
       setTimeout(function(){$wrapper.animate({opacity: 1},500)},300);
 
-      //------------------------scrollpane
-         $('.scroll-pane').jScrollPane();
+      //----------------------------------scrollpane
+      $('.scroll-pane').jScrollPane();
+         
    });
 
 }

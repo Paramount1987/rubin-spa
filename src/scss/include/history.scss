@@ -13,7 +13,14 @@
   height:100%;
   margin-left: -15px;
   overflow:hidden;
+  @include clearfix();
 }
+
+.historySlide-link{
+  display:block;
+  height:100%;
+}
+
 //-------------history slide
 .owl-carousel--history{
   position: relative;
@@ -36,7 +43,17 @@
   }
   .owl-controls{
     border-top: 3px solid #fff;
+    box-shadow: 0px -3px 2px -3px rgba(255,255,255,1);
+  }
+}
 
+.owl-carousel--historyItem{
+  .owl-stage-outer{
+    z-index: 2;
+    margin-bottom: 80px;
+  }
+  .owl-controls{
+    border-top: 3px solid #fff;
     box-shadow: 0px -3px 2px -3px rgba(255,255,255,1);
   }
 }
@@ -47,10 +64,12 @@
 }
 //----------------------dots
 
-.owl-carousel--history .owl-dots{
+.owl-carousel--history .owl-dots,
+.owl-carousel--historyItem .owl-dots{
   padding-left:165px;
 }
-.owl-carousel--history .owl-dot{
+.owl-carousel--history .owl-dot,
+.owl-carousel--historyItem .owl-dot{
   position:relative;
   display: inline-block;
   margin: 0 22px;
@@ -86,12 +105,12 @@
 .history-dots-pos{
   position: absolute;
   z-index: 3;
-  top:-60px;;
-  left:55px;
-  width: 42px;
-  height: 52px;
-  background: url('../img/images/logo-sm.png') no-repeat center;
-  background-size: 42px 52px;
+  top:-65px;;
+  left:45px;
+  width: 62px;
+  height: 70px;
+  background: url('../img/images/logo-sm-sh.png') no-repeat center;
+  background-size: 62px 70px;
   transition: all ease-out .5s;
   transform: translate(0,0);
 }
@@ -168,4 +187,81 @@
   margin-left: -50px;
   font-size: 30px;
   text-shadow:0 2px 1px #000;
+}
+
+//----------------------------------history item
+.owl-carousel--historyItem{
+  margin-bottom: 5px;
+  .item-history{
+    height:790px;
+    padding: 45px 38px;
+  }
+  .item-history--inner{
+    margin:0;
+  }
+  & + .history-dots .history-dots-pos{
+    top:-70px;
+  }
+}
+
+.item-history__left{
+  float: left;
+  width:288px;
+  margin-right: 25px;
+  .item-history__photo-wrap{
+    margin: 0 10px 10px 0;
+  }
+  .item-history__photo-inner img{
+    max-width: 255px;
+  }
+  .inner{
+    height:700px;
+  }
+  .jspPane{
+    padding: 0 !important;
+  }
+}
+
+.item-history__center{
+  float:left;
+  margin-right: 25px;
+  .item-man__body{
+    width:1190px;
+    height:700px;
+  }
+}
+
+
+.item-history__right{
+  float:right;
+  width:288px;
+  height:700px;
+  .item-history__photo-wrap{
+    margin: 0 0 10px 0;
+  }
+  .item-history__photo-inner img{
+    max-width: 255px;
+  }
+ .jspPane{
+    padding: 0 !important;
+  }
+}
+
+.item-history__photo-inner--video{
+  &:after{
+    content:'';
+    position: absolute;
+    z-index: 2;
+    top:50%;
+    left:50%;
+    display:block;
+    width:50px;
+    height:50px;
+    margin: -25px 0 0 -25px;
+    background:url('../img/images/play-v.png') no-repeat center;
+  }
+}
+
+#video-modal{
+  display:none;
 }

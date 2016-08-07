@@ -45,7 +45,7 @@ var history = [
 			{ imageSmall: "img/images/history/мини_1962г_Искра_образца.jpg", source: "img/images/history/1962г_Искра_образца.jpg", year: "1962", caption: "искра образца 1962" }
 		],
 		video: [
-			{ imageSmall: "img/images/history/Футбол_1958-1965.jpg", source: "img/images/history/Футбол_1958-1965.mp4", year: "1958", caption: "" }
+			{ imageSmall: "img/images/history/Футбол_1958-1965.jpg", source: "video/Футбол_1958-1965.mp4", year: "1958", caption: "" }
 		]
 	},
 	{
@@ -73,7 +73,7 @@ var history = [
 		{ imageSmall: "img/images/history/мини_1970_Перед_календарной_игрой_первенства_СССР.jpg", source: "img/images/history/1970_игрой_СССР.jpg", year: "1970", caption: "Перед календарной игрой первенства СССР"}
 		],
 		video: [
-			{ imageSmall: "img/images/history/Футбол_1966-1971.jpg", source: "img/images/history/Футбол_1966-1971.mp4", year: "1966", caption: "" }
+			{ imageSmall: "img/images/history/Футбол_1966-1971.jpg", source: "video/Футбол_1966-1971.mp4", year: "1966", caption: "" }
 		]
 	},
 	{
@@ -103,7 +103,7 @@ var history = [
 			{ imageSmall: "img/images/history/мини_1973_В_игре_Александр_Иванов.jpg", source: "img/images/history/1973_В_игре_Александр_Иванов.jpg", year: "1973", caption: "В игре Александр Иванов" }
 		],
 		video: [
-			{ imageSmall: "img/images/history/Хроника_1972-1977.jpg", source: "img/images/history/Хроника_1972-1977.mp4", year: "1972", caption: "ПОДПИСЬ К ВИДЕО 1" }
+			{ imageSmall: "img/images/history/Хроника_1972-1977.jpg", source: "video/Хроника_1972-1977.mp4", year: "1972", caption: "ПОДПИСЬ К ВИДЕО 1" }
 		]
 	},
 	{
@@ -152,7 +152,7 @@ var history = [
 			{ imageSmall: "img/images/history/мини_1988_Рубин.jpg", source: "img/images/history/1988_Рубин.jpg", year: "1988", caption: "Рубин" }
 		],
 		video: [
-			{ imageSmall: "img/images/history/Футбол_1978-1991.jpg", source: "img/images/history/Футбол_1978-1991.mp4", year: "1978", caption: " " }
+			{ imageSmall: "img/images/history/Футбол_1978-1991.jpg", source: "video/Футбол_1978-1991.mp4", year: "1978", caption: " " }
 		]
 	},
 	{
@@ -212,7 +212,7 @@ var history = [
 			{ imageSmall: "img/images/history/мини_2002_Рубин_не_оставил_шансов.jpg", source: "img/images/history/2002_Рубин_не_оставил_шансов.jpg", year: "2002", caption: "Рубин не оставил шансов" }
 		],
 		video: [
-			{ imageSmall: "img/images/history/Футбол_1996-2002.jpg", source: "img/images/history/Футбол_1996-2002.mp4", year: "1996", caption: "ПОДПИСЬ К ВИДЕО 1" }
+			{ imageSmall: "img/images/history/Футбол_1996-2002.jpg", source: "video/Футбол_1996-2002.mp4", year: "1996", caption: "ПОДПИСЬ К ВИДЕО 1" }
 		]
 	},
 	{
@@ -243,11 +243,11 @@ var history = [
 			{ imageSmall: "img/images/history/мини_2005_Ещё_один_рекорд.jpg", source: "img/images/history/2005_Ещё_один_рекорд.jpg", year: "2005", caption: "Ещё один рекорд" }
 		],
 		video: [
-			{ imageSmall: "img/images/history/АлехандроДомингез.jpg", source: "img/images/history/АлехандроДомингез.mp4", year: "2003", caption: "Алехандро Домингез" },
-			{ imageSmall: "img/images/history/Бронзовые_медали2003.jpg", source: "img/images/history/Бронзовые_медали2003.mp4", year: "2003", caption: "Бронзовые медали" },
-			{ imageSmall: "img/images/history/ЧР2003_Рубин-Зенит_1-2.jpg", source: "img/images/history/ЧР_2003_Рубин-Зенит_1-2.mp4", year: "2003", caption: "Рубин-Зенит" },
-			{ imageSmall: "img/images/history/Черноморец(Новороссйск).jpg", source:"Черноморец(Новороссйск)-Рубин(Казань)_1-0_2003.mp4",year:"2003",caption: "Черноморец(Новороссйск)-Рубин(Казань)"},
-			{ imageSmall: "img/images/history/Рапид-Рубин(2004).jpg", source: "img/images/history/Рапид-Рубин(2004).mp4", year: "2004", caption: "Рапид-Рубин" }
+			{ imageSmall: "img/images/history/АлехандроДомингез.jpg", source: "video/АлехандроДомингез.mp4", year: "2003", caption: "Алехандро Домингез" },
+			{ imageSmall: "img/images/history/Бронзовые_медали2003.jpg", source: "video/Бронзовые_медали2003.mp4", year: "2003", caption: "Бронзовые медали" },
+			{ imageSmall: "img/images/history/ЧР2003_Рубин-Зенит_1-2.jpg", source: "video/ЧР_2003_Рубин-Зенит_1-2.mp4", year: "2003", caption: "Рубин-Зенит" },
+			{ imageSmall: "img/images/history/Черноморец(Новороссйск).jpg", source:"video/Черноморец(Новороссйск)-Рубин(Казань)_1-0_2003.mp4",year:"2003",caption: "Черноморец(Новороссйск)-Рубин(Казань)"},
+			{ imageSmall: "img/images/history/Рапид-Рубин(2004).jpg", source: "video/Рапид-Рубин(2004).mp4", year: "2004", caption: "Рапид-Рубин" }
 		]
 	},
 	{
@@ -289,16 +289,16 @@ var history = [
 			{ imageSmall: "img/images/history/мини_2009_Псле_победы.jpg", source: "img/images/history/2009_Псле_победы.jpg", year: "2009", caption: "После победы" }
 			],
 		video: [
-			{ imageSmall: "img/images/history/AllGoalsRubinKazanIn2007.jpg", source: "img/images/history/AllGoalsRubinKaanIn2007.mp4", year: "2007", caption: "Голы-2007" },
-			{ imageSmall: "img/images/history/Голы_2008.jpg", source: "img/images/history/Голы-2008.mp4", year: "2008", caption: "Голы-2008" },
-			{ imageSmall: "img/images/history/Вручение_кубка_2006-2009.jpg", source: "img/images/history/Вручение_кубка_2006-2009.mp4", year: "2009", caption: "Вручение кубка 2006-2009" },
-			{ imageSmall: "img/images/history/Встреча_в_аэропорту.jpg", source: "img/images/history/Встреча_в_аэропорту_2006-2009.mp4", year: "2009", caption: "Встреча в аэропорту 2006-2009" },
-			{ imageSmall: "img/images/history/Интер-Рубин2009.jpg", source: "img/images/history/Интер-Рубин2009.mp4", year: "2009", caption: "Интер-Рубин" },
-			{ imageSmall: "img/images/history/Празднование_чемпионства.jpg", source: "img/images/history/Празднование_чемпионства_2006-2009.mp4", year: "2009", caption: "Празднование чемпионства 2006-2009" },
-			{ imageSmall: "img/images/history/Рубин-Барселона2009.jpg", source: "img/images/history/Рубин-Барселона2009.mp4", year: "2009", caption: "Рубин-Барселона" },
-			{ imageSmall: "img/images/history/Рубин-ДинамоКиев2009.jpg", source: "img/images/history/Рубин-ДинамоКиев2009.mp4", year: "2009", caption: "Рубин-Динамо Киев" },
-			{ imageSmall: "img/images/history/Футбол2006-2009.jpg", source: "img/images/history/Футбол2006-2009.mp4", year: "2009", caption: "Футбол 2006-2009" },
-			{ imageSmall: "img/images/history/Футбол2006-2009_2.jpg", source: "img/images/history/Футбол2006-2009_2.mp4", year: "2009", caption: "Футбол 2006-2009" }
+			{ imageSmall: "img/images/history/AllGoalsRubinKazanIn2007.jpg", source: "video/AllGoalsRubinKaanIn2007.mp4", year: "2007", caption: "Голы-2007" },
+			{ imageSmall: "img/images/history/Голы_2008.jpg", source: "video/Голы-2008.mp4", year: "2008", caption: "Голы-2008" },
+			{ imageSmall: "img/images/history/Вручение_кубка_2006-2009.jpg", source: "video/Вручение_кубка_2006-2009.mp4", year: "2009", caption: "Вручение кубка 2006-2009" },
+			{ imageSmall: "img/images/history/Встреча_в_аэропорту.jpg", source: "video/Встреча_в_аэропорту_2006-2009.mp4", year: "2009", caption: "Встреча в аэропорту 2006-2009" },
+			{ imageSmall: "img/images/history/Интер-Рубин2009.jpg", source: "video/Интер-Рубин2009.mp4", year: "2009", caption: "Интер-Рубин" },
+			{ imageSmall: "img/images/history/Празднование_чемпионства.jpg", source: "video/Празднование_чемпионства_2006-2009.mp4", year: "2009", caption: "Празднование чемпионства 2006-2009" },
+			{ imageSmall: "img/images/history/Рубин-Барселона2009.jpg", source: "video/Рубин-Барселона2009.mp4", year: "2009", caption: "Рубин-Барселона" },
+			{ imageSmall: "img/images/history/Рубин-ДинамоКиев2009.jpg", source: "video/Рубин-ДинамоКиев2009.mp4", year: "2009", caption: "Рубин-Динамо Киев" },
+			{ imageSmall: "img/images/history/Футбол2006-2009.jpg", source: "video/Футбол2006-2009.mp4", year: "2009", caption: "Футбол 2006-2009" },
+			{ imageSmall: "img/images/history/Футбол2006-2009_2.jpg", source: "video/Футбол2006-2009_2.mp4", year: "2009", caption: "Футбол 2006-2009" }
 		]
 	},
 	{
@@ -341,20 +341,20 @@ var history = [
 			{ imageSmall: "img/images/history/мини_IMG_4481.jpg", source: "img/images/history/IMG_4481.jpg", year: "2012", caption: " " }
 		],
 		video: [
-			{ imageSmall: "img/images/history/Рубин-Барселона(2010).jpg", source: "img/images/history/Рубин-Барселона(2010).mp4", year: "2010", caption: "Рубин-Барселона (2010)" },
-			{ imageSmall: "img/images/history/Рубин-Вольфсбург2010.jpg", source: "img/images/history/Рубин-Вольфсбург2010.mp4", year: "2010", caption: "Рубин-Вольфсбург 2010" },
-			{ imageSmall: "img/images/history/Все_голы2010.jpg", source: "img/images/history/Все_голы2010.mp4", year: "2010", caption: "Все голы 2010" },
-			{ imageSmall: "img/images/history/ГимнФКРубин.jpg", source: "img/images/history/ГимнФКРубин.mp4", year: "2011", caption: "Гимн ФК Рубин" },
-			{ imageSmall: "img/images/history/Голы2011-2012.jpg", source: "img/images/history/Голы2011-2012.mp4", year: "2011", caption: "Голы 2011-2012" },
-			{ imageSmall: "img/images/history/КубокРоссии2011-2012.jpg", source: "img/images/history/КубокРоссии2011-2012.mp4", year: "2011", caption: "Кубок России 2011-2012" },
-			{ imageSmall: "img/images/history/Лучшиеголы2011.jpg", source: "img/images/history/Лучшиеголы2011.mp4", year: "2011", caption: "Лучшие голы 2011" },
-			{ imageSmall: "img/images/history/Межсезонье2012.jpg", source: "img/images/history/Межсезонье2012.mp4", year: "2012", caption: "Межсезонье 2012" },
-			{ imageSmall: "img/images/history/Рубин-Хапоэль2010.jpg", source: "img/images/history/Рубин-Хапоэль2010.mp4", year: "2010", caption: "Рубин-Хапоэль 2010" },
-			{ imageSmall: "img/images/history/СуперкубокРоссии.jpg", source: "img/images/history/СуперкубокРоссии.mp4", year: "2010", caption: "Суперкубок России" },
-			{ imageSmall: "img/images/history/Хапоэль-Рубин2010.jpg", source: "img/images/history/Хапоэль-Рубин2010.mp4", year: "2010", caption: "Хапоэль-Рубин 2010" },
-			{ imageSmall: "img/images/history/ЧевствованиеФКРубин2010.jpg", source: "img/images/history/ЧевствованиеФКРубин2010.mp4", year: "2010", caption: "Чевствование ФК Рубин 2010" },
-			{ imageSmall: "img/images/history/Вольфсбург-Рубин2010.jpg", source: "img/images/history/Вольфсбург-Рубин2010.mp4", year: "2010", caption: "Вольфсбург-Рубин 2010" },
-			{ imageSmall: "img/images/history/Барселона-Рубин(2010).jpg", source: "img/images/history/Барселона-Рубин(2010).mp4", year: "2010", caption: "Барселона-Рубин (2010)" }
+			{ imageSmall: "img/images/history/Рубин-Барселона(2010).jpg", source: "video/Рубин-Барселона(2010).mp4", year: "2010", caption: "Рубин-Барселона (2010)" },
+			{ imageSmall: "img/images/history/Рубин-Вольфсбург2010.jpg", source: "video/Рубин-Вольфсбург2010.mp4", year: "2010", caption: "Рубин-Вольфсбург 2010" },
+			{ imageSmall: "img/images/history/Все_голы2010.jpg", source: "video/Все_голы2010.mp4", year: "2010", caption: "Все голы 2010" },
+			{ imageSmall: "img/images/history/ГимнФКРубин.jpg", source: "video/ГимнФКРубин.mp4", year: "2011", caption: "Гимн ФК Рубин" },
+			{ imageSmall: "img/images/history/Голы2011-2012.jpg", source: "video/Голы2011-2012.mp4", year: "2011", caption: "Голы 2011-2012" },
+			{ imageSmall: "img/images/history/КубокРоссии2011-2012.jpg", source: "video/КубокРоссии2011-2012.mp4", year: "2011", caption: "Кубок России 2011-2012" },
+			{ imageSmall: "img/images/history/Лучшиеголы2011.jpg", source: "video/Лучшиеголы2011.mp4", year: "2011", caption: "Лучшие голы 2011" },
+			{ imageSmall: "img/images/history/Межсезонье2012.jpg", source: "video/Межсезонье2012.mp4", year: "2012", caption: "Межсезонье 2012" },
+			{ imageSmall: "img/images/history/Рубин-Хапоэль2010.jpg", source: "video/Рубин-Хапоэль2010.mp4", year: "2010", caption: "Рубин-Хапоэль 2010" },
+			{ imageSmall: "img/images/history/СуперкубокРоссии.jpg", source: "video/СуперкубокРоссии.mp4", year: "2010", caption: "Суперкубок России" },
+			{ imageSmall: "img/images/history/Хапоэль-Рубин2010.jpg", source: "video/Хапоэль-Рубин2010.mp4", year: "2010", caption: "Хапоэль-Рубин 2010" },
+			{ imageSmall: "img/images/history/ЧевствованиеФКРубин2010.jpg", source: "video/ЧевствованиеФКРубин2010.mp4", year: "2010", caption: "Чевствование ФК Рубин 2010" },
+			{ imageSmall: "img/images/history/Вольфсбург-Рубин2010.jpg", source: "video/Вольфсбург-Рубин2010.mp4", year: "2010", caption: "Вольфсбург-Рубин 2010" },
+			{ imageSmall: "img/images/history/Барселона-Рубин(2010).jpg", source: "video/Барселона-Рубин(2010).mp4", year: "2010", caption: "Барселона-Рубин (2010)" }
 		]
 	}
 ]

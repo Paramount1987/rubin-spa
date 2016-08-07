@@ -1,0 +1,22 @@
+.item-history
+	.item-history--inner
+		.item-history__left
+			.inner.scroll-pane
+				each image in history.images
+					.item-history__photo-wrap
+						.item-history__photo
+							a.item-history__photo-inner.fancybox(href='#{image.source}' rel='#{group}')
+								img(src="#{image.imageSmall}")
+						.item-history__photo-caption #{image.caption}		
+		.item-history__center
+			.item-man__body.scroll-pane
+				.item-man-name #{history.title}
+				.item-man-text
+					p #{history.text}		
+		.item-history__right.scroll-pane
+			each video in history.video
+				.item-history__photo-wrap
+					.item-history__photo
+						a.item-history__photo-inner.item-history__photo-inner--video.fancyboxVideo(href="#video-modal" data-video="#{video.source}")
+							img(src="#{video.imageSmall}")
+					.item-history__photo-caption #{video.caption}	

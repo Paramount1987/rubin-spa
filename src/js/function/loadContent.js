@@ -10,13 +10,15 @@ var players = require('../components/players');
 var cups = require('../components/cups');
 var cupSingle = require('../components/cupSingle');
 var history = require('../components/history');
+var historyItem = require('../components/historyItem');
 var glory = require('../components/glory');
 var gloryItem = require('../components/gloryItem');
 
 var init = function(){
 
-   $('body').on('click', '.nav-link, .link-main, .link-back, .item-team__photo, .item-cup, .gallery-link', function(e){
+   $('body').on('click', '.nav-link, .link-main, .link-back, .item-team__photo, .item-cup, .gallery-link, .historySlide-link', function(e){
       e.preventDefault();
+
       var contentHtml = $(this).data('link');
       var index = $(this).data('item') || 0;
 
@@ -48,6 +50,9 @@ var init = function(){
          case 'history':
             contentChange.contentLoad(content.data[contentHtml], history.init);
             break;
+         case 'historyItem':
+            contentChange.contentLoad(content.data[contentHtml], historyItem.init, index);
+            break;   
          case 'glory':
             contentChange.contentLoad(content.data[contentHtml], glory.init);
             break;
