@@ -131,6 +131,7 @@
 .item-history__photo-wrap{
   position: relative;
   display:inline-block;
+  vertical-align: top;
   margin: 0 0 10px 15px;
 }
 
@@ -264,4 +265,21 @@
 
 #video-modal{
   display:none;
+}
+
+//----------------------grid for history slider
+.owl-carousel--history .owl-stage .owl-item:nth-child(2) .historySlide-link{
+ .item-history__photo-wrap:nth-child(2),
+ .item-history__photo-wrap:nth-child(3),
+ .item-history__photo-wrap:nth-child(4),
+ .item-history__photo-wrap:nth-child(6),
+ .item-history__photo-wrap:nth-child(7),
+ .item-history__photo-wrap:nth-child(8),
+ .item-history__photo-wrap:nth-child(10){
+   width: 100px;
+ }
+}
+
+.width88 {
+ width: 88px;
 }
