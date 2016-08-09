@@ -10,14 +10,20 @@ var cupsInit = function(){
       $cups.append( cupsTemplate( {'cup': Cups.cups[i], 'index': i, 'type': 'cup' }  ));
    }
 
-   $cups.owlCarousel({
+   var owlCup = $cups.owlCarousel({
       loop:false,
       margin:25,
       nav:true,
       items: 3,
-      dots: false,
+      dots: true,
       navText: [],
       smartSpeed: 500
+   });
+
+   $('.cup-dot').click(function(e){
+      e.preventDefault();
+      var index = $(this).index();
+      owlCup.trigger('to.owl.carousel',[index , 500]);
    });
 }
 

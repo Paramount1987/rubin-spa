@@ -4,11 +4,12 @@ var historyData = require('../data/history');
 var historyInit = function(){
 
    var $history = $('.owl-carousel--history');
+   var arrWidth = ['1100px','1500px','1500px','1500px','1850px','1100px','1600px','1700px','1850px','1850px'];
 
    $('.wrapper').addClass('wrapper--history');
    //----------------------------------------------add images
    for(var i = 0; i < historyData.history.length; i++){
-      $history.append( historyTemplate( {'history': historyData.history[i], 'index': i }  ));
+      $history.append( historyTemplate( {'history': historyData.history[i], 'index': i, 'width':arrWidth[i] }  ));
    }
 
 
@@ -19,7 +20,8 @@ var historyInit = function(){
       dots: true,
       nav: false,
       margin:0,
-      smartSpeed: 500
+      smartSpeed: 500,
+      autoWidth: true
    });
 
    var $historyPos = $('.history-dots-pos');

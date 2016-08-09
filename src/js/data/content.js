@@ -398,10 +398,10 @@ var content = {
                         <div class="tab-pane__slider tab-pane__slider--m">
                                     <div class="owl-carousel owl-carousel--cups"></div>
                                     <div class="cups-dot">
-                                        <div class="cup-dot cup-dot--1"></div>
-                                        <div class="cup-dot cup-dot--2"></div>
-                                        <div class="cup-dot cup-dot--3"></div>
-                                        <div class="cup-dot cup-dot--4"></div>
+                                        <a href="#" class="cup-dot cup-dot--1"></a>
+                                        <a href="#" class="cup-dot cup-dot--2"></a>
+                                        <a href="#" class="cup-dot cup-dot--3"></a>
+                                        <a href="#" class="cup-dot cup-dot--4"></a>
                                     </div>
                                 </div>
                     </div>`,
@@ -434,10 +434,10 @@ var content = {
                                     <div class="owl-carousel owl-carousel--cupSingle">
                                     </div>
                                     <div class="cups-dot">
-                                        <div class="cup-dot cup-dot--1"></div>
-                                        <div class="cup-dot cup-dot--2"></div>
-                                        <div class="cup-dot cup-dot--3"></div>
-                                        <div class="cup-dot cup-dot--4"></div>
+                                        <a href="#" class="cup-dot cup-dot--1"></a>
+                                        <a href="#" class="cup-dot cup-dot--2"></a>
+                                        <a href="#" class="cup-dot cup-dot--3"></a>
+                                        <a href="#" class="cup-dot cup-dot--4"></a>
                                     </div>
                                 </div>
                     </div>`,

@@ -131,6 +131,7 @@
 .item-history__photo-wrap{
   position: relative;
   display:inline-block;
+  max-width: 290px;
   vertical-align: top;
   margin: 0 0 10px 15px;
 }
@@ -213,7 +214,7 @@
     margin: 0 10px 10px 0;
   }
   .item-history__photo-inner img{
-    max-width: 255px;
+    max-width: 250px;
   }
   .inner{
     height:700px;
@@ -275,11 +276,286 @@
  .item-history__photo-wrap:nth-child(6),
  .item-history__photo-wrap:nth-child(7),
  .item-history__photo-wrap:nth-child(8),
- .item-history__photo-wrap:nth-child(10){
+ .item-history__photo-wrap:nth-child(10),
+ .item-history__photo-wrap:nth-child(12),
+ .item-history__photo-wrap:nth-child(13),
+ .item-history__photo-wrap:nth-child(14),
+ .item-history__photo-wrap:nth-child(16),
+ .item-history__photo-wrap:nth-child(17),
+ .item-history__photo-wrap:nth-child(18),
+ .item-history__photo-wrap:nth-child(20),
+ .item-history__photo-wrap:nth-child(21),
+ .item-history__photo-wrap:nth-child(22){
    width: 100px;
  }
 }
 
-.width88 {
- width: 88px;
+.owl-carousel--historyItem .owl-stage .owl-item:nth-child(2) .item-history__left .jspPane{
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(4),
+  .item-history__photo-wrap:nth-child(6),
+  .item-history__photo-wrap:nth-child(7),
+  .item-history__photo-wrap:nth-child(8),
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(12),
+  .item-history__photo-wrap:nth-child(13),
+  .item-history__photo-wrap:nth-child(14),
+  .item-history__photo-wrap:nth-child(16),
+  .item-history__photo-wrap:nth-child(17),
+  .item-history__photo-wrap:nth-child(18),
+  .item-history__photo-wrap:nth-child(20),
+  .item-history__photo-wrap:nth-child(21),
+  .item-history__photo-wrap:nth-child(22){
+    width: 100px;
+  }
+}
+
+.owl-carousel--history .owl-stage .owl-item:nth-child(3) .historySlide-link{
+  .item-history__photo-wrap:nth-child(1),
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(5),
+  .item-history__photo-wrap:nth-child(6),
+  .item-history__photo-wrap:nth-child(7),
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(11),
+  .item-history__photo-wrap:nth-child(12){
+    width: 100px;
+  }
+}
+
+.owl-carousel--historyItem .owl-stage .owl-item:nth-child(3) .item-history__left .jspPane{
+  .item-history__photo-wrap:nth-child(1),
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(5),
+  .item-history__photo-wrap:nth-child(6),
+  .item-history__photo-wrap:nth-child(7),
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(11),
+  .item-history__photo-wrap:nth-child(12){
+    width: 100px;
+  }
+}
+
+.owl-carousel--history .owl-stage .owl-item:nth-child(4) .historySlide-link{
+  .item-history__photo-wrap:nth-child(1),
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(5),
+  .item-history__photo-wrap:nth-child(6),
+  .item-history__photo-wrap:nth-child(7),
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(11),
+  .item-history__photo-wrap:nth-child(12),
+  .item-history__photo-wrap:nth-child(15),
+  .item-history__photo-wrap:nth-child(16){
+    width: 100px;
+  }
+}
+
+.owl-carousel--historyItem .owl-stage .owl-item:nth-child(4) .item-history__left .jspPane{
+  .item-history__photo-wrap:nth-child(1),
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(5),
+  .item-history__photo-wrap:nth-child(6),
+  .item-history__photo-wrap:nth-child(7),
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(11),
+  .item-history__photo-wrap:nth-child(12),
+  .item-history__photo-wrap:nth-child(15),
+  .item-history__photo-wrap:nth-child(16){
+    width: 100px;
+  }
+}
+
+.owl-carousel--history .owl-stage .owl-item:nth-child(5) .historySlide-link{
+  .item-history__photo-wrap:nth-child(1),
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(5),
+  .item-history__photo-wrap:nth-child(6),
+  .item-history__photo-wrap:nth-child(7),
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(11),
+  .item-history__photo-wrap:nth-child(12),
+  .item-history__photo-wrap:nth-child(15),
+  .item-history__photo-wrap:nth-child(16),
+  .item-history__photo-wrap:nth-child(17),
+  .item-history__photo-wrap:nth-child(20),
+  .item-history__photo-wrap:nth-child(21),
+  .item-history__photo-wrap:nth-child(22),
+  .item-history__photo-wrap:nth-child(24),
+  .item-history__photo-wrap:nth-child(25),
+  .item-history__photo-wrap:nth-child(30),
+  .item-history__photo-wrap:nth-child(31),
+  .item-history__photo-wrap:nth-child(32),
+  .item-history__photo-wrap:nth-child(34),
+  .item-history__photo-wrap:nth-child(35){
+    width: 100px;
+  }
+}
+
+.owl-carousel--historyItem .owl-stage .owl-item:nth-child(5) .item-history__left .jspPane{
+  .item-history__photo-wrap:nth-child(1),
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(5),
+  .item-history__photo-wrap:nth-child(6),
+  .item-history__photo-wrap:nth-child(7),
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(11),
+  .item-history__photo-wrap:nth-child(12),
+  .item-history__photo-wrap:nth-child(15),
+  .item-history__photo-wrap:nth-child(16),
+  .item-history__photo-wrap:nth-child(17),
+  .item-history__photo-wrap:nth-child(20),
+  .item-history__photo-wrap:nth-child(21),
+  .item-history__photo-wrap:nth-child(22),
+  .item-history__photo-wrap:nth-child(24),
+  .item-history__photo-wrap:nth-child(25),
+  .item-history__photo-wrap:nth-child(30),
+  .item-history__photo-wrap:nth-child(31),
+  .item-history__photo-wrap:nth-child(32),
+  .item-history__photo-wrap:nth-child(34),
+  .item-history__photo-wrap:nth-child(35){
+    width: 100px;
+  }
+}
+
+.owl-carousel--history .owl-stage .owl-item:nth-child(6) .historySlide-link{
+  .item-history__photo-wrap:nth-child(1),
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(5),
+  .item-history__photo-wrap:nth-child(6),
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(11){
+    width: 100px;
+  }
+}
+
+.owl-carousel--historyItem .owl-stage .owl-item:nth-child(6) .item-history__left .jspPane{
+  .item-history__photo-wrap:nth-child(1),
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(5),
+  .item-history__photo-wrap:nth-child(6),
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(11){
+    width: 100px;
+  }
+}
+
+.owl-carousel--history .owl-stage .owl-item:nth-child(7) .historySlide-link{
+  .item-history__photo-wrap:nth-child(1),
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(5),
+  .item-history__photo-wrap:nth-child(6),
+  .item-history__photo-wrap:nth-child(9),
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(11),
+  .item-history__photo-wrap:nth-child(13),
+  .item-history__photo-wrap:nth-child(14),
+  .item-history__photo-wrap:nth-child(15),
+  .item-history__photo-wrap:nth-child(20),
+  .item-history__photo-wrap:nth-child(21),
+  .item-history__photo-wrap:nth-child(22){
+    width: 100px;
+  }
+}
+
+.owl-carousel--historyItem .owl-stage .owl-item:nth-child(7) .item-history__left .jspPane{
+  .item-history__photo-wrap:nth-child(1),
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(5),
+  .item-history__photo-wrap:nth-child(6),
+  .item-history__photo-wrap:nth-child(9),
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(11),
+  .item-history__photo-wrap:nth-child(13),
+  .item-history__photo-wrap:nth-child(14),
+  .item-history__photo-wrap:nth-child(15),
+  .item-history__photo-wrap:nth-child(20),
+  .item-history__photo-wrap:nth-child(21),
+  .item-history__photo-wrap:nth-child(22){
+    width: 100px;
+  }
+}
+
+.owl-carousel--history .owl-stage .owl-item:nth-child(8) .historySlide-link{
+  .item-history__photo-wrap:nth-child(1),
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(18){
+    width: 100px;
+  }
+}
+.owl-carousel--historyItem .owl-stage .owl-item:nth-child(8) .item-history__left .jspPane{
+  .item-history__photo-wrap:nth-child(1),
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(18){
+    width: 100px;
+  }
+}
+
+.owl-carousel--history .owl-stage .owl-item:nth-child(9) .historySlide-link{
+  .item-history__photo-wrap:nth-child(1),
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(9),
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(11),
+  .item-history__photo-wrap:nth-child(13),
+  .item-history__photo-wrap:nth-child(14),
+  .item-history__photo-wrap:nth-child(15),
+  .item-history__photo-wrap:nth-child(21),
+  .item-history__photo-wrap:nth-child(22),
+  .item-history__photo-wrap:nth-child(23){
+    width: 100px;
+  }
+}
+
+.owl-carousel--historyItem .owl-stage .owl-item:nth-child(9) .item-history__left .jspPane{
+  .item-history__photo-wrap:nth-child(1),
+  .item-history__photo-wrap:nth-child(2),
+  .item-history__photo-wrap:nth-child(3),
+  .item-history__photo-wrap:nth-child(9),
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(11),
+  .item-history__photo-wrap:nth-child(13),
+  .item-history__photo-wrap:nth-child(14),
+  .item-history__photo-wrap:nth-child(15),
+  .item-history__photo-wrap:nth-child(21),
+  .item-history__photo-wrap:nth-child(22),
+  .item-history__photo-wrap:nth-child(23){
+    width: 100px;
+  }
+}
+
+.owl-carousel--history .owl-stage .owl-item:nth-child(10) .historySlide-link{
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(11),
+  .item-history__photo-wrap:nth-child(12),
+  .item-history__photo-wrap:nth-child(17),
+  .item-history__photo-wrap:nth-child(18),
+  .item-history__photo-wrap:nth-child(19){
+    width: 100px;
+  }
+}
+
+.owl-carousel--historyItem .owl-stage .owl-item:nth-child(10) .item-history__left .jspPane{
+  .item-history__photo-wrap:nth-child(10),
+  .item-history__photo-wrap:nth-child(11),
+  .item-history__photo-wrap:nth-child(12),
+  .item-history__photo-wrap:nth-child(17),
+  .item-history__photo-wrap:nth-child(18),
+  .item-history__photo-wrap:nth-child(19){
+    width: 100px;
+  }
 }
