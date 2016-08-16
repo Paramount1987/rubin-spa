@@ -46,7 +46,7 @@ var content = {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" class="nav-link" data-link="team">
+                                            <a href="#" class="nav-link" data-link="team" data-type="director">
                                                 <svg height="65" width="210">
                                                     <text fill="url(#grad)" font-family="pf_din_text_comp_proregular" x="2" y="50">
                                                         команда</text>
@@ -94,7 +94,7 @@ var content = {
             <div class="content-body">
                <!-- Nav tabs -->
             <ul class="nav nav-tabs">
-            <li class="active">
+            <li>
             <a href="#director" data-toggle="tab">
             <svg height="65" width="230">
             <defs>
@@ -130,7 +130,7 @@ var content = {
 
                <!-- Tab panes -->
             <div class="tab-content tab-content--opacity">
-            <div class="tab-pane fade in active" id="director">
+            <div class="tab-pane fade" id="director">
             <div class="tab-pane__slider">
             <div class="owl-carousel--directors"></div>
             </div>
@@ -304,7 +304,7 @@ var content = {
                         </div>
                         <div class="content-nav">
                             <a href="#" class="link-main" data-link="main"></a>
-                            <a href="#" class="link-back" data-link="team"></a>
+                            <a href="#" class="link-back" data-link="team" data-type="director"></a>
                         </div>
                     </div>
                     <div class="content-body">
@@ -333,7 +333,7 @@ var content = {
                         </div>
                         <div class="content-nav">
                             <a href="#" class="link-main" data-link="main"></a>
-                            <a href="#" class="link-back" data-link="team"></a>
+                            <a href="#" class="link-back" data-link="team" data-type="coach" data-item="0"></a>
                         </div>
                     </div>
                     <div class="content-body">
@@ -362,7 +362,7 @@ var content = {
                         </div>
                         <div class="content-nav">
                             <a href="#" class="link-main" data-link="main"></a>
-                            <a href="#" class="link-back" data-link="team"></a>
+                            <a href="#" class="link-back" data-link="team" data-type="player" data-item="0"></a>
                         </div>
                     </div>
                     <div class="content-body">
@@ -442,7 +442,7 @@ var content = {
                                 </div>
                     </div>`,
    "history": `                    <div class="content-top">
-                        <a href="#" class="gallery-link" data-link="glory">
+                        <a href="#" class="gallery-link js-gallery-link" data-link="glory" data-history-item="0">
                                 <svg height="85" width="130">
                                     <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="40">
                                         галерея</text>
@@ -561,7 +561,7 @@ var content = {
                         </div>
                         <div class="content-nav">
                             <a href="#" class="link-main" data-link="main"></a>
-                            <a href="#" class="link-back" data-link="history"></a>
+                            <a href="#" class="link-back" data-link="history" data-item="0"></a>
                         </div>
                     </div>
                     <div class="content-body">
@@ -659,7 +659,7 @@ var content = {
                         </div>
                         <div class="content-nav">
                             <a href="#" class="link-main" data-link="main"></a>
-                            <a href="#" class="link-back" data-link="history"></a>
+                            <a href="#" class="link-back" data-link="history" data-history-item="0"></a>
                         </div>
                     </div>
                     <div class="content-body">
@@ -688,7 +688,7 @@ var content = {
                         </div>
                         <div class="content-nav">
                             <a href="#" class="link-main" data-link="main"></a>
-                            <a href="#" class="link-back" data-link="glory"></a>
+                            <a href="#" class="link-back" data-link="glory" data-item="0"></a>
                         </div>
                     </div>
                     <div class="content-body">

@@ -22,12 +22,17 @@ var init = function(){
       var contentHtml = $(this).data('link');
       var index = $(this).data('item') || 0;
 
+      var tabIndex = $(this).data('type') || 'director';
+
+      //history active index slide
+      var indexHistory = $(this).data('history-item');
+
       switch (contentHtml) {
          case 'main':
             contentChange.contentLoad(content.data[contentHtml], main.init);
             break;
          case 'team':
-            contentChange.contentLoad(content.data[contentHtml], team.players);
+            contentChange.contentLoad(content.data[contentHtml], team.players, index,tabIndex);
             break;
          case 'calendar':
             contentChange.contentLoad(content.data[contentHtml], calendar.init);
@@ -48,13 +53,14 @@ var init = function(){
             contentChange.contentLoad(content.data[contentHtml], cupSingle.init, index);
             break;
          case 'history':
-            contentChange.contentLoad(content.data[contentHtml], history.init);
+            index = indexHistory ? indexHistory : index;
+            contentChange.contentLoad(content.data[contentHtml], history.init, index);
             break;
          case 'historyItem':
             contentChange.contentLoad(content.data[contentHtml], historyItem.init, index);
             break;   
          case 'glory':
-            contentChange.contentLoad(content.data[contentHtml], glory.init);
+            contentChange.contentLoad(content.data[contentHtml], glory.init, index, null, indexHistory);
             break;
          case 'gloryItem':
             contentChange.contentLoad(content.data[contentHtml], gloryItem.init, index);

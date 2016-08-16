@@ -1,7 +1,8 @@
 var gloryTemplate = require('../../jade/glory');
 var dataGlory = require('../data/glory');
 
- var gloryInit = function(){
+ var gloryInit = function(curSlide, tabactive, indexHistory){
+
 
     var $glory = $('.owl-carousel--glory');
     $('.wrapper').removeClass('wrapper--history');
@@ -17,11 +18,12 @@ var dataGlory = require('../data/glory');
        dots: false,
        margin:20,
        navText: [],
-       smartSpeed: 400
+       smartSpeed: 400,
+       startPosition: curSlide
     });
 
-
-
+    //---------set index history to data of link
+    $('.link-back').attr('data-history-item', indexHistory);
  }
 
 

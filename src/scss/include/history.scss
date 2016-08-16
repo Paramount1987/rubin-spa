@@ -131,7 +131,7 @@
 .item-history__photo-wrap{
   position: relative;
   display:inline-block;
-  max-width: 290px;
+  max-width: 200px;
   vertical-align: top;
   margin: 0 0 10px 15px;
 }
@@ -165,7 +165,7 @@
   img{
     // position: absolute;
     // z-index: 1;
-    max-width: 270px;
+    max-width: 180px;
     height:auto;
     // left:0;
   }
@@ -211,6 +211,7 @@
   width:288px;
   margin-right: 25px;
   .item-history__photo-wrap{
+    max-width: 290px;
     margin: 0 10px 10px 0;
   }
   .item-history__photo-inner img{

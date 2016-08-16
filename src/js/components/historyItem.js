@@ -3,6 +3,8 @@ var historyData = require('../data/history');
 
 var historyInit = function(curSlide){
 
+   var $linkback = $('.link-back');
+   var slide = curSlide;
    var $history = $('.owl-carousel--historyItem');
    var $historyPos = $('.history-dots-pos');
    var periodTitle = $('.period-date');
@@ -13,7 +15,6 @@ var historyInit = function(curSlide){
       $history.append( historyTemplate( {'history': historyData.history[i], 'group': i }  ));
    }
 
-
    var historySlider = $history.owlCarousel({
       items:1,
       loop:false,
@@ -21,14 +22,18 @@ var historyInit = function(curSlide){
       nav: false,
       margin:0,
       smartSpeed: 500,
-      startPosition: curSlide,
+      startPosition: slide,
       onInitialize: function(){
-         periodTitle.html(historyData.history[curSlide]['period']);
 
-         if( !curSlide ){
+         //set current index slide
+         $linkback.attr('data-item', slide);
+
+         periodTitle.html(historyData.history[slide]['period']);
+
+         if( !slide ){
             $historyPos.css({"transform":"translate(0,0)"});
          }else{
-            var pos = (curSlide * 154) + 'px';
+            var pos = (slide * 154) + 'px';
             $historyPos.css({"transform":"translate(" + pos + ",0)"});
          }
 
@@ -39,6 +44,10 @@ var historyInit = function(curSlide){
 
    historySlider.on('changed.owl.carousel', function(event){
 
+      //set current index slide
+      $linkback.attr('data-item', event.item.index);
+
+      //change period title
       periodTitle.html(historyData.history[event.item.index]['period']);
 
       if( !event.item.index ){

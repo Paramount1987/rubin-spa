@@ -1,5 +1,5 @@
 
-var contentChange  = function(newContent, callback, curSlide){
+var contentChange  = function(newContent, callback, curSlide, curTab, indexHistory){
 
    var $content = $('.content');
    var $wrapper = $('.wrapper');
@@ -9,7 +9,7 @@ var contentChange  = function(newContent, callback, curSlide){
    },300, function(){
 
       $content.html( newContent );
-      if(callback)  callback(curSlide);
+      if(callback)  callback(curSlide, curTab, indexHistory);
 
       setTimeout(function(){$wrapper.animate({opacity: 1},500)},300);
 

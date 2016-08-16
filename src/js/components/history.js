@@ -1,9 +1,12 @@
 var historyTemplate = require('../../jade/historySlide');
 var historyData = require('../data/history');
 
-var historyInit = function(){
+var historyInit = function(curSlide){
+
+   var $dataHistoryItem = $('.js-gallery-link');
 
    var $history = $('.owl-carousel--history');
+   var $historyPos = $('.history-dots-pos');
    var arrWidth = ['1100px','1500px','1500px','1500px','1850px','1100px','1600px','1700px','1850px','1850px'];
 
    $('.wrapper').addClass('wrapper--history');
@@ -12,6 +15,18 @@ var historyInit = function(){
       $history.append( historyTemplate( {'history': historyData.history[i], 'index': i, 'width':arrWidth[i] }  ));
    }
 
+   //-------------------------------------------set dot position
+   $history.on('initialized.owl.carousel', function(event) {
+      if( !event.item.index ){
+         $historyPos.css({"transform":"translate(0,0)"});
+      }else{
+         var pos = (event.item.index * 154) + 'px';
+         $historyPos.css({"transform":"translate(" + pos + ",0)"});
+      }
+
+      $dataHistoryItem.attr('data-history-item', event.item.index)
+   })
+   //-------------------------------------------
 
    var historySlider = $history.owlCarousel({
       center: true,
@@ -21,10 +36,10 @@ var historyInit = function(){
       nav: false,
       margin:0,
       smartSpeed: 500,
-      autoWidth: true
+      autoWidth: true,
+      startPosition: curSlide
    });
 
-   var $historyPos = $('.history-dots-pos');
 
    historySlider.on('changed.owl.carousel', function(event){
       if( !event.item.index ){
@@ -33,6 +48,8 @@ var historyInit = function(){
          var pos = (event.item.index * 154) + 'px';
          $historyPos.css({"transform":"translate(" + pos + ",0)"});
       }
+
+      $dataHistoryItem.attr('data-history-item', event.item.index)
 
    });
 

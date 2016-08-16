@@ -3,9 +3,12 @@ var team = require('../data/team');
 var playerTemplate = require('../../jade/team/player');
 
 //------------------------------players
-function playersInit(){
+function playersInit(curSlide,tabactive){
+
+   var slide = tabactive == 'player' ? curSlide : 0;
    var $players = $('.owl-carousel--players');
    $('.wrapper').removeClass('wrapper--history');
+
    //----------------------------------------------add players
    for(var i = 0; i < team.players.length; i++){
       $players.append( playerTemplate( {'player': team.players[i], 'index': i, 'type':'player' }  ));
@@ -17,7 +20,8 @@ function playersInit(){
             nav:true,
             items: 5,
             dots: false,
-            navText: []
+            navText: [],
+            startPosition: slide
          });
 };
 //------------------------------------directors init
@@ -30,7 +34,9 @@ function directorsInit(){
 };
 
 //------------------------------coach
-function coachInit(){
+function coachInit(curSlide,tabactive){
+
+   var slide = tabactive == 'coach' ? curSlide : 0;
    var $coach = $('.owl-carousel--coach');
 
    //----------------------------------------------add players
@@ -44,15 +50,42 @@ function coachInit(){
       nav:true,
       items: 5,
       dots: false,
-      navText: []
+      navText: [],
+      startPosition: slide
    });
 };
+//---------------------tab active init
+function tabInit(tabactive){
+   var $navtabs    = $('.nav-tabs');
+   var $tabcontent = $('.tab-content');
+
+   switch (tabactive){
+      case 'director':
+         $navtabs.find('li').eq(0).addClass('active');
+         $tabcontent.find('.tab-pane').eq(0).addClass('in active');
+         break;
+      case 'coach':
+         $navtabs.find('li').eq(1).addClass('active');
+         $tabcontent.find('.tab-pane').eq(1).addClass('in active');
+         break;
+      case 'player':
+         $navtabs.find('li').eq(2).addClass('active');
+         $tabcontent.find('.tab-pane').eq(2).addClass('in active');
+         break;
+      default:
+         break;
+   }
+
+}
+
 //--------------------init function
 
-function init(){
-   playersInit();
+function init(curSlide, tabactive){
+   playersInit(curSlide, tabactive);
    directorsInit();
-   coachInit();
+   coachInit(curSlide, tabactive);
+
+   tabInit(tabactive);
 }
 
 
