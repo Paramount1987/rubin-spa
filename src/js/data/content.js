@@ -632,7 +632,7 @@ var content = {
                             </div>
                         </div>
                         <div id="video-modal">
-                            <video id="videoClip"  controls>
+                            <video id="videoClip">
                               <source src="" type="video/mp4" id="video-src">
                                     Your browser does not support the video tag.
                             </video>

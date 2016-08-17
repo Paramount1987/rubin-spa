@@ -24,7 +24,7 @@
 //-------------history slide
 .owl-carousel--history{
   position: relative;
-  margin-top: 30px;
+  margin-top: 0;
   border-top:2px solid #fff;
   &:after{
     content:'';
@@ -38,7 +38,7 @@
   }
   .owl-stage-outer{
     z-index: 2;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     border-bottom: 2px solid #fff;
   }
   .owl-controls{
@@ -50,7 +50,7 @@
 .owl-carousel--historyItem{
   .owl-stage-outer{
     z-index: 2;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
   }
   .owl-controls{
     border-top: 3px solid #fff;
@@ -195,8 +195,8 @@
 .owl-carousel--historyItem{
   margin-bottom: 5px;
   .item-history{
-    height:790px;
-    padding: 45px 38px;
+    height:680px;
+    padding: 20px 38px 45px 38px;
   }
   .item-history--inner{
     margin:0;

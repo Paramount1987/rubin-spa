@@ -71,16 +71,25 @@ var historyInit = function(curSlide){
    });
 
    //--------------------------------------video modal
+   var $videoClip = $('#videoClip');
+
+   //---
+   $videoClip.onloadstart = function() {
+      console.log('loadstart');
+      $videoClip.play();
+   };
+   //--
+
    $(".fancyboxVideo").fancybox({
        maxWidth : 1400,
        openEffect : 'elastic',
        closeEffect   : 'elastic',
        beforeClose: function(){
-         $('#videoClip').get(0).pause();
+         $videoClip.get(0).pause();
        },
        afterLoad: function(e){
-         $('#video-src').attr('src', $(e.element).data('video'));
-         $('#videoClip').get(0).load();
+          $videoClip.attr('src', $(e.element).data('video'));
+          $videoClip.get(0).load();
        }
     });
 }
