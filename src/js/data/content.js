@@ -201,7 +201,7 @@ var content = {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="calendar-link">
+                                    <a href="#" class="calendar-link js-calendar-link" data-index="6">
                                         <svg height="40" width="55">
                                             <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
                                                 март</text>
@@ -209,7 +209,7 @@ var content = {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="calendar-link">
+                                    <a href="#" class="calendar-link js-calendar-link" data-index="7">
                                         <svg height="40" width="75">
                                             <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
                                                 апрель</text>
@@ -217,7 +217,7 @@ var content = {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="calendar-link">
+                                    <a href="#" class="calendar-link js-calendar-link" data-index="8">
                                         <svg height="40" width="45">
                                             <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
                                                 май</text>
@@ -233,7 +233,7 @@ var content = {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="calendar-link">
+                                    <a href="#" class="calendar-link js-calendar-link" data-index="0">
                                         <svg height="40" width="60">
                                             <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
                                                 июль</text>
@@ -241,7 +241,7 @@ var content = {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="calendar-link">
+                                    <a href="#" class="calendar-link js-calendar-link" data-index="1">
                                         <svg height="40" width="70">
                                             <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
                                                 август</text>
@@ -249,7 +249,7 @@ var content = {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="calendar-link">
+                                    <a href="#" class="calendar-link js-calendar-link" data-index="2">
                                         <svg height="40" width="95">
                                             <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
                                                 сентябрь</text>
@@ -257,7 +257,7 @@ var content = {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="calendar-link">
+                                    <a href="#" class="calendar-link js-calendar-link" data-index="3">
                                         <svg height="40" width="85">
                                             <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
                                                 октябрь</text>
@@ -265,7 +265,7 @@ var content = {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="calendar-link">
+                                    <a href="#" class="calendar-link js-calendar-link" data-index="4">
                                         <svg height="40" width="75">
                                             <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
                                                 ноябрь</text>
@@ -273,7 +273,7 @@ var content = {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="calendar-link">
+                                    <a href="#" class="calendar-link js-calendar-link" data-index="5">
                                         <svg height="40" width="90">
                                             <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
                                                 декабрь</text>
