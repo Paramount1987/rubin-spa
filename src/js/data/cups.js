@@ -1,5 +1,18 @@
 var cups = [
    {
+      "name":"СУПЕРКУБОК РОССИИ 2010",
+      "photo":"img/images/cups/superCup2010.png",
+      "content":[
+         "7 марта 2010 в матче за почетный трофей казанцы победили московский ЦСКА со счетом 1:0. Единственный гол в составе казанской команды забил Александр Бухаров. Встреча «Рубина» с ЦСКА прошла 7 марта 2010 года в Москве на стадионе «Лужники».",
+         "«Рубин» выиграл Суперкубок России впервые в своей истории. В 2009 году казанцы также играли в матче за Суперкубок с ЦСКА, но тогда победу со счетом 2:1 (в дополнительное время) одержали армейцы."
+      ],
+      "album": [
+         { "previewPhoto":"img/images/cups/мини_СУПЕРКУБОК2010_1.JPG", "photo":"img/images/cups/СУПЕРКУБОК2010_1.JPG", "caption":"мини_IMG_3219.JPG" },
+         { "previewPhoto":"img/images/cups/мини_СУПЕРКУБОК2010_2.JPG", "photo":"img/images/cups/СУПЕРКУБОК2010_2.JPG", "caption":"" },
+         { "previewPhoto":"img/images/cups/мини_СУПЕРКУБОК2010_3.JPG", "photo":"img/images/cups/СУПЕРКУБОК2010_3.JPG", "caption":"" }
+      ]
+   },
+   {
       "name":"СУПЕРКУБОК РОССИИ 2012",
       "photo":"img/images/cups/superCup2012.png",
       "content":[
@@ -22,19 +35,6 @@ var cups = [
          { "previewPhoto":"img/images/cups/мини_IMG_4488.JPG", "photo":"img/images/cups/IMG_4488.JPG", "caption":"" },
          { "previewPhoto":"img/images/cups/мини_IMG_4539.JPG", "photo":"img/images/cups/IMG_4539.JPG", "caption":"" },
          { "previewPhoto":"img/images/cups/мини_IMG_4481.JPG", "photo":"img/images/cups/IMG_4481.JPG", "caption":"" }
-      ]
-   },
-   {
-      "name":"СУПЕРКУБОК РОССИИ 2010",
-      "photo":"img/images/cups/superCup2010.png",
-      "content":[
-         "7 марта 2010 в матче за почетный трофей казанцы победили московский ЦСКА со счетом 1:0. Единственный гол в составе казанской команды забил Александр Бухаров. Встреча «Рубина» с ЦСКА прошла 7 марта 2010 года в Москве на стадионе «Лужники».",
-         "«Рубин» выиграл Суперкубок России впервые в своей истории. В 2009 году казанцы также играли в матче за Суперкубок с ЦСКА, но тогда победу со счетом 2:1 (в дополнительное время) одержали армейцы."
-      ],
-      "album": [
-         { "previewPhoto":"img/images/cups/мини_СУПЕРКУБОК2010_1.JPG", "photo":"img/images/cups/СУПЕРКУБОК2010_1.JPG", "caption":"мини_IMG_3219.JPG" },
-         { "previewPhoto":"img/images/cups/мини_СУПЕРКУБОК2010_2.JPG", "photo":"img/images/cups/СУПЕРКУБОК2010_2.JPG", "caption":"" },
-         { "previewPhoto":"img/images/cups/мини_СУПЕРКУБОК2010_3.JPG", "photo":"img/images/cups/СУПЕРКУБОК2010_3.JPG", "caption":"" }
       ]
    },
    {

@@ -398,10 +398,10 @@ var content = {
                         <div class="tab-pane__slider tab-pane__slider--m">
                                     <div class="owl-carousel owl-carousel--cups"></div>
                                     <div class="cups-dot">
-                                        <a href="#" class="cup-dot cup-dot--1"></a>
-                                        <a href="#" class="cup-dot cup-dot--2"></a>
-                                        <a href="#" class="cup-dot cup-dot--3"></a>
-                                        <a href="#" class="cup-dot cup-dot--4"></a>
+                                        <a href="#" class="cup-dot cup-dot--1 active" data-index="1"></a>
+                                        <a href="#" class="cup-dot cup-dot--2" data-index="2"></a>
+                                        <a href="#" class="cup-dot cup-dot--3" data-index="3"></a>
+                                        <a href="#" class="cup-dot cup-dot--4" data-index="4"></a>
                                     </div>
                                 </div>
                     </div>`,
@@ -434,10 +434,10 @@ var content = {
                                     <div class="owl-carousel owl-carousel--cupSingle">
                                     </div>
                                     <div class="cups-dot">
-                                        <a href="#" class="cup-dot cup-dot--1"></a>
-                                        <a href="#" class="cup-dot cup-dot--2"></a>
-                                        <a href="#" class="cup-dot cup-dot--3"></a>
-                                        <a href="#" class="cup-dot cup-dot--4"></a>
+                                        <a href="#" class="cup-dot cup-dot--1" data-index="1"></a>
+                                        <a href="#" class="cup-dot cup-dot--2" data-index="2"></a>
+                                        <a href="#" class="cup-dot cup-dot--3" data-index="3"></a>
+                                        <a href="#" class="cup-dot cup-dot--4" data-index="4"></a>
                                     </div>
                                 </div>
                     </div>`,

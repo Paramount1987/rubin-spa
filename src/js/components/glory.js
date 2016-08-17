@@ -24,6 +24,7 @@ var dataGlory = require('../data/glory');
 
     //---------set index history to data of link
     $('.link-back').attr('data-history-item', indexHistory);
+
  }
 
 
