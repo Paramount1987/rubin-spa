@@ -10,6 +10,9 @@
 						.item-history__photo-caption #{image.caption}		
 		.item-history__center
 			.item-man__body.scroll-pane
+				a.sound-track(href='#')
+				audio.audio-sound
+					source(src="#{history.sound}" type="audio/mpeg")
 				.item-man-name #{history.title}
 				.item-man-text
 					p #{history.text}		

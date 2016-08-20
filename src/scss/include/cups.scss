@@ -34,28 +34,52 @@
   text-align: center;
 }
 .cup-dot{
+  position:relative;
+  z-index: 3;
   display: inline-block;
   height: 80px;
   margin: 0 15px;
   vertical-align: top;
-  &.active{
-    box-shadow: 0 0 15px 5px rgba(255,255,255,1);
+  &.active:after{
+    content:'';
+    position: absolute;
+    z-index: 2;
+    top:18px;
+    left:50%;
+    width:0;
+    height:50px;
+    box-shadow:0px 0px 18px 10px rgba(255,0,104,0.9);
   }
 }
-.cup-dot--1{
+
+.cup-dot:before{
+  content:'';
+  position:relative;
+  z-index: 3;
+  display: inline-block;
+  height:80px;
+}
+
+.cup-dot--1:before{
   width:82px;
   background: url('../img/images/cup4.png') no-repeat center;
 }
-.cup-dot--2{
+.cup-dot.cup-dot--1.active:after{
+    top:27px;
+    height:40px;
+    box-shadow:0px 0px 18px 15px rgba(255,0,104,0.9);
+}
+
+.cup-dot--2:before{
   width:50px;
   background: url('../img/images/cup1.png') no-repeat center;
 
 }
-.cup-dot--3{
+.cup-dot--3:before{
   width:33px;
   background: url('../img/images/cup3.png') no-repeat center;
 }
-.cup-dot--4{
+.cup-dot--4:before{
   width:37px;
   background: url('../img/images/cup2.png') no-repeat center;
 }
@@ -163,4 +187,25 @@
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: .8px;
+}
+
+//-----свечение активного кубка
+.owl-carousel--cups .item-cup__photo img{
+  position: relative;
+  z-index: 4;
+}
+
+.owl-carousel--cups .owl-item.active.center .item-cup__photo{
+  position: relative;
+  overflow:visible;
+  &:after{
+    content:'';
+    position:absolute;
+    z-index: 2;
+    top:80px;
+    left:50%;
+    width:0;
+    height:60%;
+    box-shadow:0px 30px 60px 80px rgba(254,0,115,0.75);
+  }
 }

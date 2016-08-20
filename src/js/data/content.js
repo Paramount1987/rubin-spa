@@ -185,20 +185,29 @@ var content = {
                             </div>
                             <ul class="list-calendar">
                                 <li>
-                                    <a href="#" class="calendar-link">
+                                    <div class="calendar-link">
                                         <svg height="40" width="80">
-                                            <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
+                                            <defs>
+                                                <linearGradient id="gradGray" x1="0%" y1="0%" x2="0%" y2="100%">
+                                                    <stop offset="0%" style="stop-color:rgb(170,170,170);stop-opacity:1" />
+                                                    <stop offset="45%" style="stop-color:rgb(170,170,170);stop-opacity:1" />
+                                                    <stop offset="46%" style="stop-color:rgb(68,68,54);stop-opacity:1" />
+                                                    <stop offset="70%" style="stop-color:rgb(68,68,54);stop-opacity:1" />
+                                                    <stop offset="100%" style="stop-color:rgb(68,68,54);stop-opacity:1" />
+                                                </linearGradient>
+                                            </defs>
+                                            <text fill="url(#gradGray)" font-family="pf_din_text_comp_proregular" x="2" y="30">
                                                 январь</text>
                                         </svg>
-                                    </a>
+                                    </div>
                                 </li>
                                 <li>
-                                    <a href="#" class="calendar-link">
+                                    <div class="calendar-link">
                                         <svg height="40" width="90">
-                                            <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
+                                            <text fill="url(#gradGray)" font-family="pf_din_text_comp_proregular" x="2" y="30">
                                                 февраль</text>
                                         </svg>
-                                    </a>
+                                    </div>
                                 </li>
                                 <li>
                                     <a href="#" class="calendar-link js-calendar-link" data-index="6">
@@ -225,12 +234,12 @@ var content = {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="calendar-link">
+                                    <div class="calendar-link">
                                         <svg height="40" width="60">
-                                            <text fill="url(#gradC)" font-family="pf_din_text_comp_proregular" x="2" y="30">
+                                            <text fill="url(#gradGray)" font-family="pf_din_text_comp_proregular" x="2" y="30">
                                                 июнь</text>
                                         </svg>
-                                    </a>
+                                    </div>
                                 </li>
                                 <li>
                                     <a href="#" class="calendar-link js-calendar-link" data-index="0">

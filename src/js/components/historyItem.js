@@ -43,6 +43,8 @@ var historyInit = function(curSlide){
    
 
    historySlider.on('changed.owl.carousel', function(event){
+      //------------------stop audio playing
+      audioStop();
 
       //set current index slide
       $linkback.attr('data-item', event.item.index);
@@ -73,12 +75,12 @@ var historyInit = function(curSlide){
    //--------------------------------------video modal
    var $videoClip = $('#videoClip');
 
-   //---
-   $videoClip.onloadstart = function() {
-      console.log('loadstart');
-      $videoClip.play();
+   //------------------------------------
+   var videoClip = document.getElementById('videoClip');
+   videoClip.onloadstart = function() {
+    setTimeout( function() { $videoClip.get(0).play() } , 350);
    };
-   //--
+   //----------------------------------
 
    $(".fancyboxVideo").fancybox({
        maxWidth : 1400,
@@ -88,10 +90,35 @@ var historyInit = function(curSlide){
          $videoClip.get(0).pause();
        },
        afterLoad: function(e){
+          audioStop();
+
           $videoClip.attr('src', $(e.element).data('video'));
           $videoClip.get(0).load();
        }
     });
+
+   //----------------------audio sound controls
+   function audioStop(){
+        if ( $('.sound-track').hasClass('is-active') ) {
+          $('.sound-track.is-active').next('.audio-sound').get(0).pause();
+          $('.sound-track.is-active').next('.audio-sound').get(0).currentTime = 0;
+          $('.sound-track.is-active').removeClass('is-active');
+        }
+   }
+
+   $('.sound-track').click(function(e){
+      e.preventDefault();
+      $(this).toggleClass('is-active');
+
+      if( $(this).hasClass('is-active') ){
+          $(this).next('.audio-sound').get(0).play();
+      }else{
+          $(this).next('.audio-sound').get(0).pause();
+          $(this).next('.audio-sound').get(0).currentTime = 0;
+      }
+      
+   });
+
 }
 
 module.exports.init = historyInit;

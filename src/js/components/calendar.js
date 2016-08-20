@@ -38,7 +38,6 @@ function calendarInit(){
    //----------slide change to active class
    $calendar.on('changed.owl.carousel', function(e) {
       $dots.removeClass('active');
-      console.log(e.item.index);
       $('.js-calendar-link[data-index="' + e.item.index + '"]').addClass('active');
    });
 };
