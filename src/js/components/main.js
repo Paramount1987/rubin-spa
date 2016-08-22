@@ -1,6 +1,33 @@
 var init = function(){
 
-				$('.wrapper').removeClass('wrapper--history');
+	$('.wrapper').removeClass('wrapper--history');
+
+	//-------------fancybox video Logo
+	var $videoLogo = $('#videoLogo');
+
+	//------------------------------------
+	var videoLogo = document.getElementById('videoLogo');
+	videoLogo.onloadstart = function() {
+		setTimeout( function() { $videoLogo.get(0).play() } , 350);
+	};
+
+	videoLogo.onended = function() {
+		$.fancybox.close();
+	};
+
+	$(".fancyboxVideoLogo").fancybox({
+		maxWidth : 1400,
+		openEffect : 'elastic',
+		closeEffect   : 'elastic',
+		beforeClose: function(){
+			$videoLogo.get(0).pause();
+		},
+		afterLoad: function(e){
+			$videoLogo.attr('src', $(e.element).data('video'));
+			$videoLogo.get(0).load();
+		}
+	});
+	//----------------------------
 				//---animation
 				// var ball = $('.ball-lg');
 				// var values = [10, 3160];

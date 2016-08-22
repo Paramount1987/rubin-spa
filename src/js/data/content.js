@@ -38,7 +38,7 @@ var content = {
                                     </a>
                                     <ul class="nav-list-sup">
                                         <li>
-                                            <a href="#1" class="nav-link">
+                                            <a href="#video-logo" class="nav-link fancyboxVideoLogo" data-video="video/LOGOMOTION.mp4">
                                                 <svg height="65" width="345">
                                                     <text fill="url(#grad)" font-family="pf_din_text_comp_proregular" x="2" y="50">
                                                         новый логотип</text>
@@ -66,6 +66,12 @@ var content = {
                             </ul>
                         </nav>
                         <div class="nav-backdrop backdrop"><i class="i-close js-nav-close"></i></div>
+                        <div id="video-logo">
+                            <video id="videoLogo">
+                                <source src="" type="video/mp4" id="video-src">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
                     </div>`,
    team: `<div class="content-top">
             <div class="content-title">

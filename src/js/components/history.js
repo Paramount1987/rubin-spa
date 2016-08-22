@@ -7,7 +7,7 @@ var historyInit = function(curSlide){
 
    var $history = $('.owl-carousel--history');
    var $historyPos = $('.history-dots-pos');
-   var arrWidth = ['1100px','1500px','1500px','1500px','1850px','1100px','1600px','1700px','1850px','1850px'];
+   var arrWidth = ['1000px','1200px','1100px','1200px','1890px','1100px','1600px','1400px','1850px','1850px'];
 
    $('.wrapper').addClass('wrapper--history');
    //----------------------------------------------add images

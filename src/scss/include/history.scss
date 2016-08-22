@@ -19,6 +19,7 @@
 .historySlide-link{
   display:block;
   height:100%;
+  text-align: center;
 }
 
 //-------------history slide
@@ -270,7 +271,12 @@
 }
 
 //----------------------grid for history slider
+.owl-carousel--history .owl-stage .owl-item:nth-child(1) .historySlide-link{
+  padding: 100px;
+}
+
 .owl-carousel--history .owl-stage .owl-item:nth-child(2) .historySlide-link{
+  padding-top: 30px;
  .item-history__photo-wrap:nth-child(2),
  .item-history__photo-wrap:nth-child(3),
  .item-history__photo-wrap:nth-child(4),
@@ -341,6 +347,7 @@
 }
 
 .owl-carousel--history .owl-stage .owl-item:nth-child(4) .historySlide-link{
+  padding-top: 15px;
   .item-history__photo-wrap:nth-child(1),
   .item-history__photo-wrap:nth-child(2),
   .item-history__photo-wrap:nth-child(3),
@@ -373,6 +380,7 @@
 }
 
 .owl-carousel--history .owl-stage .owl-item:nth-child(5) .historySlide-link{
+  padding-top: 30px;
   .item-history__photo-wrap:nth-child(1),
   .item-history__photo-wrap:nth-child(2),
   .item-history__photo-wrap:nth-child(3),
@@ -427,6 +435,7 @@
 }
 
 .owl-carousel--history .owl-stage .owl-item:nth-child(6) .historySlide-link{
+  padding-top: 100px;
   .item-history__photo-wrap:nth-child(1),
   .item-history__photo-wrap:nth-child(2),
   .item-history__photo-wrap:nth-child(3),
@@ -451,6 +460,7 @@
 }
 
 .owl-carousel--history .owl-stage .owl-item:nth-child(7) .historySlide-link{
+  padding-top: 40px;
   .item-history__photo-wrap:nth-child(1),
   .item-history__photo-wrap:nth-child(2),
   .item-history__photo-wrap:nth-child(3),
@@ -489,6 +499,7 @@
 }
 
 .owl-carousel--history .owl-stage .owl-item:nth-child(8) .historySlide-link{
+  padding-top: 20px;
   .item-history__photo-wrap:nth-child(1),
   .item-history__photo-wrap:nth-child(2),
   .item-history__photo-wrap:nth-child(3),
@@ -506,6 +517,7 @@
 }
 
 .owl-carousel--history .owl-stage .owl-item:nth-child(9) .historySlide-link{
+  padding-top: 40px;
   .item-history__photo-wrap:nth-child(1),
   .item-history__photo-wrap:nth-child(2),
   .item-history__photo-wrap:nth-child(3),
